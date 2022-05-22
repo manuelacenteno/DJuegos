@@ -1,0 +1,45 @@
+.barra {
+    background-color: #582A72;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagenLogo {
+    height: 100px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.img {
+    cursor: pointer;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.lista ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.lista ul li {
+    list-style: none;
+    display: inline;
+}
+
+.lista ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 1rem;
+    display: block;
+}
+
+.lista ul li a:hover {
+    background-color: #555;
+}
