@@ -1,0 +1,42 @@
+.destacado {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.h1 {
+    font-size: 40px;
+}
+
+.descripcion {
+    margin: 0px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.destacado2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.nombreJuego {
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.nombreJuego h2 {
+    font-size: 36px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btnJugar {
+    font-size: 36px;
+    border-radius: 50px;
+    width: 245px;
+    height: 68px;
+    background-color: #F0B510;
+}

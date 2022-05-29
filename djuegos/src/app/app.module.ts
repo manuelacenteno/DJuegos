@@ -7,6 +7,8 @@ import { BarraNavComponent } from './barra-nav/barra-nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { PublicidadComponent } from './publicidad/publicidad.component';
 import { FormLoginComponent } from './form-login/form-login.component';
+import { JuegosDestacadoComponent } from './juegos-destacado/juegos-destacado.component';
+import { JuegosListComponent } from './juegos-list/juegos-list.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FormLoginComponent } from './form-login/form-login.component';
     BarraNavComponent,
     FooterComponent,
     PublicidadComponent,
-    FormLoginComponent
+    FormLoginComponent,
+    JuegosDestacadoComponent,
+    JuegosListComponent
   ],
   imports: [
     BrowserModule,
