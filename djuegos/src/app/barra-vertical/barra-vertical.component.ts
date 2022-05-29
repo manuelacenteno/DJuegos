@@ -6,11 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./barra-vertical.component.scss']
 })
 export class BarraVerticalComponent implements OnInit {
+  
+  
 
-  constructor() { }
+  constructor() {
+  
+   }
 
   ngOnInit(): void {
   }
   
+  
+
 
 }

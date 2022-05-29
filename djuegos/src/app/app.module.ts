@@ -10,6 +10,7 @@ import { FormLoginComponent } from './form-login/form-login.component';
 import { JuegosDestacadoComponent } from './juegos-destacado/juegos-destacado.component';
 import { JuegosListComponent } from './juegos-list/juegos-list.component';
 import { BarraVerticalComponent } from './barra-vertical/barra-vertical.component';
+import { FormRegistroComponent } from './form-registro/form-registro.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BarraVerticalComponent } from './barra-vertical/barra-vertical.componen
     FormLoginComponent,
     JuegosDestacadoComponent,
     JuegosListComponent,
-    BarraVerticalComponent
+    BarraVerticalComponent,
+    FormRegistroComponent
   ],
   imports: [
     BrowserModule,
