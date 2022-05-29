@@ -1,0 +1,23 @@
+<div ng-app="myApp" ng-controller="myCtrl">
+
+    <button ng-click="myFunc()">Click Me!</button>
+
+    <div ng-show="showMe">
+        <ul>
+            <li><a href="#">Accion</a></li>
+            <li><a href="#">Aventuras</a></li>
+            <li><a href="#">Multijugador</a></li>
+            <li><a href="#">Clasicos</a></li>
+        </ul>
+
+    </div>
+
+    <script>
+        let app = angular.module('myApp', []);
+        app.controller('myCtrl', function($scope) {
+            $scope.showMe = false;
+            $scope.myFunc = function() {
+                $scope.showMe = !$scope.showMe;
+            }
+        });
+    </script>

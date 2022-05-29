@@ -9,6 +9,7 @@ import { PublicidadComponent } from './publicidad/publicidad.component';
 import { FormLoginComponent } from './form-login/form-login.component';
 import { JuegosDestacadoComponent } from './juegos-destacado/juegos-destacado.component';
 import { JuegosListComponent } from './juegos-list/juegos-list.component';
+import { BarraVerticalComponent } from './barra-vertical/barra-vertical.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { JuegosListComponent } from './juegos-list/juegos-list.component';
     PublicidadComponent,
     FormLoginComponent,
     JuegosDestacadoComponent,
-    JuegosListComponent
+    JuegosListComponent,
+    BarraVerticalComponent
   ],
   imports: [
     BrowserModule,

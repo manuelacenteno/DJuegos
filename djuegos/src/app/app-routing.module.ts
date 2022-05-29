@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
-import { FormLoginComponent } from './form-login/form-login.component'
+import { FormLoginComponent } from './form-login/form-login.component';
+import { BarraVerticalComponent } from './barra-vertical/barra-vertical.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,9 @@ const routes: Routes = [
   {
     path: 'login',
     component: FormLoginComponent,
+  },{
+    path:'menuVertical',
+    component: BarraVerticalComponent,
   }
 ];
 
