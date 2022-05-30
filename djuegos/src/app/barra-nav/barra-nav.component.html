@@ -1,10 +1,8 @@
 <header>
     <nav class="barra">
-        <div class="img">
+        <div class="logo">
             <img class="imagenLogo" src="assets/img/logo.webp" alt="Logo">
-        </div>
-        <div class="titulo">
-            <h1>DJuegos</h1>
+            <div class="titulo"><h1>DJuegos</h1></div>
         </div>
 
         <div class="lista">
@@ -13,7 +11,7 @@
                 <li><a [routerLink]="['/menuVertical']">CATEGORIAS</a></li>
                 <li><a href="#">BUSCAR</a></li>
 
-                <li (click)="openLogin()"> <a>INICIAR SESION</a></li>
+                <li (click)="openLogin()"> <a href="#">INICIAR SESION</a></li>
                 <div *ngIf="abrirOpcion==true">
                     <app-form-login></app-form-login>
                 </div>
