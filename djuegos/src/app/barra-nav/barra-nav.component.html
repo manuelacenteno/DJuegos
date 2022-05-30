@@ -13,7 +13,11 @@
                 <li><a [routerLink]="['/menuVertical']">CATEGORIAS</a></li>
                 <li><a href="#">BUSCAR</a></li>
 
-                <li> <a [routerLink]="['/login']">INICIAR SESION</a></li>
+                <li (click)="openLogin()"> <a>INICIAR SESION</a></li>
+                <div *ngIf="abrirOpcion==true">
+                    <app-form-login></app-form-login>
+                </div>
+
             </ul>
         </div>
     </nav>

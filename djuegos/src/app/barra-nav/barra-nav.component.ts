@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ModalService } from '../services/modal.service';
 
 @Component({
   selector: 'app-barra-nav',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BarraNavComponent implements OnInit {
 
-  constructor() { }
+  abrirOpcion:boolean=false;
+
+  constructor( private modalSer: ModalService) { }
 
   ngOnInit(): void {
+
+    this.modalSer.$modal.subscribe((valor) => {this.abrirOpcion=valor})
+  }
+
+  
+  openLogin(){
+    this.abrirOpcion =true;
   }
 
 }

@@ -1,3 +1,14 @@
+.modalForm {
+    background: rgba(48, 48, 48, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
 .form {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -133,4 +144,9 @@ input {
     background-color: #F0B510;
     width: 352px;
     height: 40px;
+}
+
+.btnCerrar {
+    width: 20px;
+    height: 20px;
 }

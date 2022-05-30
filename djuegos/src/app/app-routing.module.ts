@@ -10,9 +10,6 @@ const routes: Routes = [
     component: AppComponent,
   },
   {
-    path: 'login',
-    component: FormLoginComponent,
-  },{
     path:'menuVertical',
     component: BarraVerticalComponent,
   }
