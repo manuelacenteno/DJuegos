@@ -44,6 +44,12 @@
     display: block;
     height: 100%;
    
+    list-style: none;
+}
+
+.menuLineal>li {
+    position: relative;
+    display: inline-block;
 }
 
 .lista ul li a {
@@ -52,12 +58,32 @@
     height: 100%;
     margin: 0 25px;
     display: flex;
+    padding: 1rem;
 }
 
 .lista ul a:hover {
     background-color: #555;
 }
 
-.button {
-    outline: none;
+
+/*submenu*/
+
+.dropdowns {
+    position: absolute;
+    background: #582A72;
+    color: white;
+    width: 150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5;
+}
+
+.dropdowns li a {
+    display: block;
+}
+
+.menuLineal li:hover .dropdowns {
+    display: block;
+    visibility: visible;
+    opacity: 1;
 }
