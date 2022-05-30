@@ -8,10 +8,18 @@
         </div>
 
         <div class="lista">
-            <ul>
+            <ul class="menuLineal">
 
-                <li><a [routerLink]="['/menuVertical']">CATEGORIAS</a></li>
-                <li><a href="#">BUSCAR</a></li>
+                <li><a>CATEGORIAS</a>
+                    <ul class="dropdowns">
+                        <li><a>Accion</a></li>
+                        <li><a>Aventuras</a></li>
+                        <li><a>Multijugador</a></li>
+                        <li><a>Clasicos</a></li>
+                    </ul>
+                </li>
+                <!-- [routerLink]="['/#']" -->
+                <li><a>BUSCAR</a></li>
 
                 <li (click)="openLogin()"> <a>INICIAR SESION</a></li>
                 <div *ngIf="abrirOpcion==true">

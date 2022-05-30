@@ -29,24 +29,43 @@
     margin: 0px;
     padding: 0px;
     display: flex;
+    list-style: none;
 }
 
-.lista ul li {
-    list-style: none;
-    display: inline;
+.menuLineal>li {
+    position: relative;
+    display: inline-block;
 }
 
 .lista ul li a {
     text-decoration: none;
     color: #FFFFFF;
     padding: 1rem;
-    display: block;
 }
 
 .lista ul li a:hover {
     background-color: #555;
 }
 
-.button {
-    outline: none;
+
+/*submenu*/
+
+.dropdowns {
+    position: absolute;
+    background: #582A72;
+    color: white;
+    width: 150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5;
+}
+
+.dropdowns li a {
+    display: block;
+}
+
+.menuLineal li:hover .dropdowns {
+    display: block;
+    visibility: visible;
+    opacity: 1;
 }
