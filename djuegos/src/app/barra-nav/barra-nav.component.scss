@@ -68,16 +68,17 @@
 
 /*submenu*/
 
-.dropdowns {
+.dropdowns  {
     position: absolute;
-    background: #582A72;
     color: white;
     width: 150px;
     visibility: hidden;
     opacity: 0;
     transition: opacity 1.5;
 }
-
+.dropdowns li{
+    background-color: #582A72;
+}
 .dropdowns li a {
     display: block;
 }
