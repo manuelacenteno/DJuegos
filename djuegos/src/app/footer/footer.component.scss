@@ -2,16 +2,18 @@
     background-color: #582A72;
     color: #FFFFFF;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 20px;
     position: absolute;
     bottom: 0;
-    width: 99%;
-    /*solucion atada con alambre, para que el div quede dek tamaño de la pagina*/
+    width: 100%;
     position: fixed;
-    bottom: 0;
+    left: 0;
 }
-
+.img{
+    display: flex;
+}
 .imagenLogo {
     height: 50px;
     width: 50px;
@@ -24,8 +26,6 @@
 }
 
 .grupo {
-    /*otro solucion atada con alambra, para que quede al final del div el h4*/
     color: white;
-    position: relative;
-    left: 900px;
+    margin-right: 2em;
 }
