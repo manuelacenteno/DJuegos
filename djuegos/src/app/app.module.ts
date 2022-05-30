@@ -9,7 +9,6 @@ import { PublicidadComponent } from './publicidad/publicidad.component';
 import { FormLoginComponent } from './form-login/form-login.component';
 import { JuegosDestacadoComponent } from './juegos-destacado/juegos-destacado.component';
 import { JuegosListComponent } from './juegos-list/juegos-list.component';
-import { BarraVerticalComponent } from './barra-vertical/barra-vertical.component';
 import { FormRegistroComponent } from './form-registro/form-registro.component';
 
 @NgModule({
@@ -21,7 +20,6 @@ import { FormRegistroComponent } from './form-registro/form-registro.component';
     FormLoginComponent,
     JuegosDestacadoComponent,
     JuegosListComponent,
-    BarraVerticalComponent,
     FormRegistroComponent
   ],
   imports: [
