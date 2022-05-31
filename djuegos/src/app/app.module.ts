@@ -10,6 +10,7 @@ import { FormLoginComponent } from './form-login/form-login.component';
 import { JuegosDestacadoComponent } from './juegos-destacado/juegos-destacado.component';
 import { JuegosListComponent } from './juegos-list/juegos-list.component';
 import { FormRegistroComponent } from './form-registro/form-registro.component';
+import { BusquedaComponent } from './busqueda/busqueda.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormRegistroComponent } from './form-registro/form-registro.component';
     FormLoginComponent,
     JuegosDestacadoComponent,
     JuegosListComponent,
-    FormRegistroComponent
+    FormRegistroComponent,
+    BusquedaComponent
   ],
   imports: [
     BrowserModule,

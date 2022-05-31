@@ -2,7 +2,9 @@
     <nav class="barra">
         <div class="logo">
             <img class="imagenLogo" src="assets/img/logo.webp" alt="Logo">
-            <div class="titulo"><h1>DJuegos</h1></div>
+            <div class="titulo">
+                <h1>DJuegos</h1>
+            </div>
         </div>
 
         <div class="lista">
@@ -21,7 +23,7 @@
 
                 <li (click)="openLogin()"> <a href="#">INICIAR SESION</a></li>
                 <div *ngIf="abrirOpcion==true">
-                    <!--<app-form-login></app-form-login> -->
+                    <app-form-login></app-form-login>
                 </div>
 
             </ul>
