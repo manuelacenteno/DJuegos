@@ -10,6 +10,9 @@ import { FormLoginComponent } from './form-login/form-login.component';
 import { JuegosDestacadoComponent } from './juegos-destacado/juegos-destacado.component';
 import { JuegosListComponent } from './juegos-list/juegos-list.component';
 import { FormRegistroComponent } from './form-registro/form-registro.component';
+import { BusquedaComponent } from './busqueda/busqueda.component';
+import { FilterPipe } from './pipes/filter.pipe';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,11 +23,14 @@ import { FormRegistroComponent } from './form-registro/form-registro.component';
     FormLoginComponent,
     JuegosDestacadoComponent,
     JuegosListComponent,
-    FormRegistroComponent
+    FormRegistroComponent,
+    BusquedaComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

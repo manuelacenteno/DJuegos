@@ -2,7 +2,9 @@
     <nav class="barra">
         <div class="logo">
             <img class="imagenLogo" src="assets/img/logo.webp" alt="Logo">
-            <div class="titulo"><h1>DJuegos</h1></div>
+            <div class="titulo">
+                <h1>DJuegos</h1>
+            </div>
         </div>
 
         <div class="lista">
@@ -17,7 +19,7 @@
                     </ul>
                 </li>
                 <!-- [routerLink]="['/#']" -->
-                <li><a>BUSCAR</a></li>
+                <li><a [routerLink]="['/busqueda']">BUSCAR</a></li>
 
                 <li (click)="openLogin()"> <a href="#">INICIAR SESION</a></li>
                 <div *ngIf="abrirOpcion==true">

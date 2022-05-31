@@ -1,0 +1,15 @@
+<div class="listaCard">
+    <input type="text" name="filterJuego" placeholder="Search.." [(ngModel)]="filterJuego">
+
+    <h1>Resultados :</h1>
+
+    <div class="card" *ngFor="let juego of juegos" | filter :filterJuego>
+        <div>
+            <img width="225px" height="110px" [src]="juego.imagen" [alt]="juego.nombre">
+        </div>
+        <div>
+            <h3>{{juego.nombre}}</h3>
+        </div>
+        <!-- si no hay juegos no muestra, hay que mejorar -->
+        <!-- <h2 *ngIf="juego.id==3">No hay resultados para esta busqueda</h2> -->
+    </div>
