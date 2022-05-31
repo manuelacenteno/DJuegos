@@ -1,7 +1,8 @@
 .barra {
     background-color: #582A72;
     color: #FFFFFF;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -11,15 +12,13 @@
     z-index: 99;
 }
 .logo{
-    width: auto;
-    display: flex;
-    margin: 0 20px;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
 .imagenLogo {
-    height: 100px;
-    width: 100px;
     margin-top: 25px;
     margin-left: 20px;
+    margin-bottom: 25px;
 }
 
 .titulo {
@@ -28,16 +27,20 @@
     
 }
 .lista{
-    margin-right: 40px;
+    margin: auto;
+    grid-column-start: 17;
+    grid-column-end: 29;
     height: 100%;
-    display: contents;
+    display: flex;
+    align-items: center;
 }
 .lista ul {
-    height: 100%;
     margin: 0px;
     padding: 0px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .lista ul li {
@@ -57,12 +60,12 @@
     text-decoration: none;
     color: #FFFFFF;
     height: 100%;
-    margin: 0 25px;
+    margin-right: 30px;
     display: flex;
-    padding: 1rem;
+    padding-left: 0.5rem;
 }
 
-.lista ul a:hover {
+.lista a:hover {
     background-color: #555;
 }
 
@@ -72,20 +75,19 @@
 .dropdowns  {
     position: absolute;
     color: white;
-    width: 150px;
+    width: 250px;
     visibility: hidden;
+    padding-top: 1rem !important;
     opacity: 0;
     transition: opacity 1.5;
 }
-.dropdowns li{
+.dropdowns > *{
     background-color: #582A72;
 }
-.dropdowns li a {
-    display: block;
-    padding: 0 !important;
-    margin: 0 !important;
+.dropdowns a{
+    margin: auto !important;
+    padding: 1rem;
 }
-
 .menuLineal li:hover .dropdowns {
     display: block;
     visibility: visible;

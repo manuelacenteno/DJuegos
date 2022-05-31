@@ -1,27 +1,24 @@
 <header>
     <nav class="barra">
         <div class="logo">
-            <img class="imagenLogo" src="assets/img/logo.webp" alt="Logo">
-            <div class="titulo">
-                <h1>DJuegos</h1>
-            </div>
+            <a href=""><img class="imagenLogo" src="assets/img/logo.png" alt="Logo"></a>
         </div>
 
         <div class="lista">
             <ul class="menuLineal">
 
-                <li><a>CATEGORIAS</a>
+                <li><a><img class="btn-categories" src="assets/img/Categorias.png"></a>
                     <ul class="dropdowns">
-                        <li><a>Accion</a></li>
+                        <a>Accion</a>
                         <li><a>Aventuras</a></li>
                         <li><a>Multijugador</a></li>
                         <li><a>Clasicos</a></li>
                     </ul>
                 </li>
                 <!-- [routerLink]="['/#']" -->
-                <li><a [routerLink]="['/busqueda']">BUSCAR</a></li>
+                <li><a [routerLink]="['/busqueda']"><img class="btn-categories" src="assets/img/Buscar.png"></a></li>
 
-                <li (click)="openLogin()"> <a href="#">INICIAR SESION</a></li>
+                <li (click)="openLogin()"> <a href="#"><img class="btn-categories" src="assets/img/Perfil.png"></a></li>
                 <div *ngIf="abrirOpcion==true">
                     <app-form-login></app-form-login>
                 </div>
