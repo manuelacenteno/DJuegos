@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
-import { FormLoginComponent } from './form-login/form-login.component';
-import { JuegosListComponent } from './juegos-list/juegos-list.component';
+import { BusquedaComponent } from './busqueda/busqueda.component';
+
 
 
 const routes: Routes = [
@@ -12,7 +12,7 @@ const routes: Routes = [
   },
   {
     path: 'busqueda',
-    component: JuegosListComponent,
+    component: BusquedaComponent,
   }
 ];
 

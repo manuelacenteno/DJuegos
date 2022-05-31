@@ -7,7 +7,7 @@ import {Juego} from './juego';
   styleUrls: ['./busqueda.component.scss']
 })
 export class BusquedaComponent implements OnInit {
-
+  filterJuego = '';
   juegos: Juego [] =
   [{
     id: 1,

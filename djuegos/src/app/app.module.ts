@@ -11,6 +11,8 @@ import { JuegosDestacadoComponent } from './juegos-destacado/juegos-destacado.co
 import { JuegosListComponent } from './juegos-list/juegos-list.component';
 import { FormRegistroComponent } from './form-registro/form-registro.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
+import { FilterPipe } from './pipes/filter.pipe';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
     JuegosDestacadoComponent,
     JuegosListComponent,
     FormRegistroComponent,
-    BusquedaComponent
+    BusquedaComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
