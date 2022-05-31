@@ -1,9 +1,18 @@
 .destacado {
-    margin-top: 150px;
+    position: absolute;
+    left: 0;
+    margin-top: 140px;
+    width: 100%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 2% 40% 5% 40%;
+    background-image: url("../../assets/img/fondo1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;     
 }
-
+.destacado1{
+    grid-column: 2;
+}
 .h1 {
     font-size: 40px;
 }
@@ -15,6 +24,7 @@
 }
 
 .destacado2 {
+    grid-column: 4;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
 }

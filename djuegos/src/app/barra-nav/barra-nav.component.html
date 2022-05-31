@@ -7,18 +7,18 @@
         <div class="lista">
             <ul class="menuLineal">
 
-                <li><a><img class="btn-categories" src="assets/img/Categorias.png"></a>
+                <li><a><img class="btn-bar" src="assets/img/Categorias.png"></a>
                     <ul class="dropdowns">
-                        <a>Accion</a>
-                        <li><a>Aventuras</a></li>
-                        <li><a>Multijugador</a></li>
-                        <li><a>Clasicos</a></li>
+                        <a><img class="btn-cat" src="assets/img/Accion.png" alt=""></a>
+                        <a><img class="btn-cat" src="assets/img/Aventuras.png" alt=""></a>
+                        <a><img class="btn-cat" src="assets/img/Multijugador.png" alt=""></a>
+                        <a><img class="btn-cat" src="assets/img/Clasicos.png" alt=""></a>
                     </ul>
                 </li>
                 <!-- [routerLink]="['/#']" -->
-                <li><a [routerLink]="['/busqueda']"><img class="btn-categories" src="assets/img/Buscar.png"></a></li>
+                <li><a [routerLink]="['/busqueda']"><img class="btn-bar" src="assets/img/Buscar.png"></a></li>
 
-                <li (click)="openLogin()"> <a href="#"><img class="btn-categories" src="assets/img/Perfil.png"></a></li>
+                <li (click)="openLogin()"> <a href="#"><img class="btn-bar" src="assets/img/Perfil.png"></a></li>
                 <div *ngIf="abrirOpcion==true">
                     <app-form-login></app-form-login>
                 </div>

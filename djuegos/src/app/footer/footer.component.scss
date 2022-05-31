@@ -4,21 +4,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    margin: 20px 0;
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    position: fixed;
     left: 0;
+    width: 100%;
 }
 .img{
     display: flex;
 }
 .imagenLogo {
     height: 50px;
-    width: 50px;
-    margin-top: 25px;
-    margin-left: 20px;
+    margin: 15px;
 }
 
 .titulo {
