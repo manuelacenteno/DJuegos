@@ -19,7 +19,7 @@
                     </ul>
                 </li>
                 <!-- [routerLink]="['/#']" -->
-                <li><a>BUSCAR</a></li>
+                <li><a [routerLink]="['/busqueda']">BUSCAR</a></li>
 
                 <li (click)="openLogin()"> <a href="#">INICIAR SESION</a></li>
                 <div *ngIf="abrirOpcion==true">
