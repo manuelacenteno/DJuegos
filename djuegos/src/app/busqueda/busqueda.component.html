@@ -3,7 +3,7 @@
 
     <h1>Resultados :</h1>
     <section *ngFor="let categoria of asd">
-    <div class="card" *ngFor="let juego of categoria.juegos" | filter :filterJuego>
+    <div class="card" *ngFor="let juego of categoria.juegos" >
         <div>
             <img width="225px" height="150px" [src]="juego.imagen" [alt]="juego.nombre">
         </div>
