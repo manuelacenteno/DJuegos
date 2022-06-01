@@ -14,6 +14,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
 import { FilterPipe } from './pipes/filter.pipe';
 import { FormsModule } from '@angular/forms';
 import { PerfilComponent } from './perfil/perfil.component';
+import { JuegoComponent } from './juego/juego.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { PerfilComponent } from './perfil/perfil.component';
     FormRegistroComponent,
     BusquedaComponent,
     FilterPipe,
-    PerfilComponent
+    PerfilComponent,
+    JuegoComponent
   ],
   imports: [
     BrowserModule,

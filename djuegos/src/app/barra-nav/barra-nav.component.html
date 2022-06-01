@@ -7,18 +7,21 @@
         <div class="lista">
             <ul class="menuLineal">
 
-                <li><a><img class="btn-bar" src="assets/img/Categorias.png"></a>
+                <li>
+                    <a><img class="btn-bar" src="assets/img/Categorias.png"></a>
                     <ul class="dropdowns">
-                        <a><img class="btn-cat" src="assets/img/Accion.png" alt=""></a>
-                        <a><img class="btn-cat" src="assets/img/Aventuras.png" alt=""></a>
-                        <a><img class="btn-cat" src="assets/img/Multijugador.png" alt=""></a>
-                        <a><img class="btn-cat" src="assets/img/Clasicos.png" alt=""></a>
+                        <a [routerLink]="['/accion']"><img class="btn-cat" src="assets/img/Accion.png" alt=""></a>
+                        <a [routerLink]="['/aventuras']"><img class="btn-cat" src="assets/img/Aventuras.png" alt=""></a>
+                        <a [routerLink]="['/multijugador']"><img class="btn-cat" src="assets/img/Multijugador.png" alt=""></a>
+                        <a [routerLink]="['/clasicos']"><img class="btn-cat" src="assets/img/Clasicos.png" alt=""></a>
                     </ul>
                 </li>
                 <!-- [routerLink]="['/#']" -->
                 <li style="position: relative;right: 15px;"><a [routerLink]="['/busqueda']"><img class="btn-bar" src="assets/img/Buscar.png"></a></li>
 
-                <li (click)="openLogin()"> <a style="cursor: pointer;"><img class="btn-bar" src="assets/img/Perfil.png"></a></li>
+                <li (click)="openLogin()">
+                    <a style="cursor: pointer;"><img class="btn-bar" src="assets/img/Perfil.png"></a>
+                </li>
                 <div *ngIf="abrirOpcion==true">
                     <app-form-login></app-form-login>
                 </div>

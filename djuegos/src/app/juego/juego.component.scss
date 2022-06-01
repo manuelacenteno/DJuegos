@@ -1,0 +1,28 @@
+.juego {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: #582A72;
+    color: white;
+}
+
+.parteDerecha {
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
+
+.controles {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.controlTeclado {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.controlMouse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
