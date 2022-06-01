@@ -1,22 +1,19 @@
-<<<<<<< HEAD
 <div class="listaCard">
-    <input type="text" name="filterJuego" placeholder="Buscar.." [(ngModel)]="filterJuego">
-=======
-<div class="listaCard" style="margin-top: 155px;">
-    <input type="text" name="filterJuego" placeholder="Search.." [(ngModel)]="filterJuego">
->>>>>>> 0e1a9290108f5af049ef44563df52620deb90ca9
 
-    <h1>Resultados :</h1>
-    <section *ngFor="let categoria of asd">
-    <div class="card" *ngFor="let juego of categoria.juegos" | filter :filterJuego>
-        <div>
-            <img width="225px" height="150px" [src]="juego.imagen" [alt]="juego.nombre">
-        </div>
-        <div>
-            <h3>{{juego.nombre}}</h3>
-        </div>
-        <!-- si no hay juegos no muestra, hay que mejorar -->
-        <!-- <h2 *ngIf="juego.id==3">No hay resultados para esta busqueda</h2> -->
+    <div class="listaCard" style="margin-top: 155px;">
+        <input type="text" name="filterJuego" placeholder="Buscar.." [(ngModel)]="filterJuego">
+
+        <h1>Resultados :</h1>
+        <section *ngFor="let categoria of asd">
+            <div class="card" *ngFor="let juego of categoria.juegos |filter :filterJuego">
+                <div>
+                    <img width="225px" height="150px" [src]="juego.imagen" [alt]="juego.nombre">
+                </div>
+                <div>
+                    <h3>{{juego.nombre}}</h3>
+                </div>
+                <!-- si no hay juegos no muestra, hay que mejorar -->
+                <!-- <h2 *ngIf="juego.id==3">No hay resultados para esta busqueda</h2> -->
+            </div>
+        </section>
     </div>
-</section>
-</div>
