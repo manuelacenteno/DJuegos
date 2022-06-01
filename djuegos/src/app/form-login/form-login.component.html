@@ -1,3 +1,4 @@
+<div class="fondo" (click)="cerrarForm()"></div>
 <div class="modalForm">
     <div class="form">
         <div class="animacion">
@@ -58,7 +59,7 @@
                 </ul>
             </div>
         </div>
-        <div class="formLogin">
+        <div class="formLogin" *ngIf="registro==false">
 
             <button class="btnCerrar" (click)="cerrarForm()">X</button>
 
@@ -78,13 +79,52 @@
                         <input type="password">
                     </div>
                     <div class="botonEntrar">
-                        <button class="btnEntrar">Entrar</button>
+                        <a [routerLink]="['/perfil']" (click)="cerrarForm()"><button type="submit" class="btnEntrar" style="cursor: pointer;">Entrar</button></a>
                     </div>
                 </form>
             </div>
-            <div class="botonNo">
-                <button class="btnNo">¿No tienes cuenta?</button>
+            
+            <button type="button" id="btn-registro" class="btnNo" (click)="openRegistro()">¿No tienes cuenta?</button>
+            
+        </div>
+        <div class="formRegistro" *ngIf="registro==true">
+            <button class="btnCerrar" (click)="cerrarForm()">X</button>
+            <div class="centrar2">
+                <form action="">
+                    <div class="input">
+                        <label for="">Usuario</label>
+                    </div>
+                    <div>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <label for="">Email</label>
+                    </div>
+                    <div>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <label for="">Contraseña</label>
+                    </div>
+                    <div class="input">
+                        <input type="password">
+                    </div>
+                    <div class="input">
+                        <label for="">Confirmar Contraseña</label>
+                    </div>
+                    <div class="input">
+                        <input type="password">
+                    </div>
+                    <div class="botonEntrar">
+                        <a [routerLink]="['/perfil']" (click)="cerrarForm()" ><button class="btnEntrar" style="cursor: pointer;">Registrarse</button></a>
+                    </div>
+                </form>
             </div>
+            
+            <button id="btn-login" class="btnNo" (click)="closeRegistro()">¿Ya tienes cuenta?</button>
+
         </div>
     </div>
+
+    
 </div>

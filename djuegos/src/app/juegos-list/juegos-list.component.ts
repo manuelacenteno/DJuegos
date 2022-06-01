@@ -35,31 +35,41 @@ export class JuegosListComponent implements OnInit {
     id: 5,
     nombre: "Age of Empires",
     imagen: "assets/img/juegoAccion2.webp"
+  },
+  {
+    id: 6,
+    nombre: "World of Warcraft",
+    imagen: "assets/img/juegoAccion3.jpg"
+  },
+  {
+    id: 7,
+    nombre: "Roblox 2, la venganza",
+    imagen: "assets/img/juegoAccion1.jpg"
   }]
 }, {
   categoria: "Aventuras",
   juegos : [{
-    id: 1,
+    id: 8,
     nombre: "Las Aventuras de Pepito",
     imagen: "assets/img/juegoAccion3.jpg"
   },
   {
-    id: 2,
+    id: 9,
     nombre: "Aventuras 2.0, la Venganza de los Sith",
     imagen: "assets/img/juegoAccion1.jpg"
   },
   {
-    id: 3,
+    id: 10,
     nombre: "El señor de los Anillos: el retorno del Rey",
     imagen: "assets/img/juegoAccion2.webp"
   },
   {
-    id: 4,
+    id: 11,
     nombre: "Age of Mitology: Las Eras de la Mitología",
     imagen: "assets/img/juegoAccion3.jpg"
   },
   {
-    id: 5,
+    id: 12,
     nombre: "Diablo III",
     imagen: "assets/img/juegoAccion1.jpg"
   }]

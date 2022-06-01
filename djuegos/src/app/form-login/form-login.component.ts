@@ -8,7 +8,7 @@ import { ModalService } from '../services/modal.service';
 })
 export class FormLoginComponent implements OnInit {
 
-  
+  registro:boolean=false;
 
   constructor(private modalSer: ModalService) {
     
@@ -23,6 +23,12 @@ export class FormLoginComponent implements OnInit {
 
   }
 
+  openRegistro(){
+    this.registro=true;
+  }
+  closeRegistro(){
+    this.registro=false;
+  }
 
 
   
