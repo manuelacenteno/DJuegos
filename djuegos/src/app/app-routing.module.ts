@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
 import { JuegoComponent } from './juego/juego.component';
 import { JuegosDestacadoComponent } from './juegos-destacado/juegos-destacado.component';
@@ -36,10 +35,10 @@ const routes: Routes = [
   {path: 'multijugador',
   component:JuegosListComponent ,}
   ,
-  {path: 'aventura',
+  {path: 'aventuras',
   component:JuegosListComponent ,}
   ,
-  {path: 'clasico',
+  {path: 'clasicos',
   component:JuegosListComponent ,}
 ];
 

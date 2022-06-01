@@ -72,6 +72,75 @@ export class JuegosListComponent implements OnInit {
     id: 12,
     nombre: "Diablo III",
     imagen: "assets/img/juegoAccion1.jpg"
+  },
+  {
+    id: 13,
+    nombre: "Pacman",
+    imagen: "assets/img/juegoAccion3.jpg"
+  }]
+}, {
+  categoria: "Multijugador",
+  juegos : [{
+    id: 8,
+    nombre: "Las Aventuras de Pepito",
+    imagen: "assets/img/juegoAccion3.jpg"
+  },
+  {
+    id: 9,
+    nombre: "Aventuras 2.0, la Venganza de los Sith",
+    imagen: "assets/img/juegoAccion1.jpg"
+  },
+  {
+    id: 10,
+    nombre: "El señor de los Anillos: el retorno del Rey",
+    imagen: "assets/img/juegoAccion2.webp"
+  },
+  {
+    id: 11,
+    nombre: "Age of Mitology: Las Eras de la Mitología",
+    imagen: "assets/img/juegoAccion3.jpg"
+  },
+  {
+    id: 12,
+    nombre: "Diablo III",
+    imagen: "assets/img/juegoAccion1.jpg"
+  },
+  {
+    id: 13,
+    nombre: "Pacman",
+    imagen: "assets/img/juegoAccion3.jpg"
+  }]
+}, {
+  categoria: "Clásicos",
+  juegos : [{
+    id: 8,
+    nombre: "Los juegos clásicos más clásicos del mundo",
+    imagen: "assets/img/juegoAccion3.jpg"
+  },
+  {
+    id: 9,
+    nombre: "Aventuras 2.0, la Venganza de los Sith",
+    imagen: "assets/img/juegoAccion1.jpg"
+  },
+  {
+    id: 10,
+    nombre: "El Hobbit",
+    imagen: "assets/img/juegoAccion2.webp"
+  },
+  {
+    id: 11,
+    nombre: "Minecraft",
+    imagen: "assets/img/juegoAccion3.jpg"
+  },
+  {
+    id: 12,
+    nombre: "jahsdkahsdhakd",
+    imagen: "assets/img/juegoAccion1.jpg"
+  },
+  {
+    id: 13,
+    nombre: "Pacman",
+    imagen: "assets/img/juegoAccion3.jpg"
   }]
 }];
 
@@ -83,4 +152,5 @@ export class JuegosListComponent implements OnInit {
   getCategorias(): Lista[]{
     return this.categorias;
   }
+
 }

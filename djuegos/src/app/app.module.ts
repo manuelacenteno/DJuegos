@@ -15,6 +15,8 @@ import { FilterPipe } from './pipes/filter.pipe';
 import { FormsModule } from '@angular/forms';
 import { PerfilComponent } from './perfil/perfil.component';
 import { JuegoComponent } from './juego/juego.component';
+import { JuegosSimilaresComponent } from './juegos-similares/juegos-similares.component';
+import { JuegosFavoritosComponent } from './juegos-favoritos/juegos-favoritos.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { JuegoComponent } from './juego/juego.component';
     BusquedaComponent,
     FilterPipe,
     PerfilComponent,
-    JuegoComponent
+    JuegoComponent,
+    JuegosSimilaresComponent,
+    JuegosFavoritosComponent,
   ],
   imports: [
     BrowserModule,

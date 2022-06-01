@@ -1,6 +1,34 @@
-<div class="perfil">
+<div class="destacado">
+
+    <div class="destacado1">
+        <div class="titulo">
+            <h1>Mi Juego Más Jugado</h1>
+        </div>
+
+        <div>
+
+            <a [routerLink]="['/juego']"><img src="assets/img/juegoMasJugado.png"></a>
+        </div>
+    </div>
+    <div class="destacado2">
+        <div class="nombreJuego">
+            <h2>Pacman</h2>
+        </div>
+
+        <div class="descripcion">
+            <p>El pequeño hombrecillo amarillo que recorre una habitación comiendo pastillas.</p>
+        </div>
 
 
+        <div class="btn">
+            <a [routerLink]="['/juego']"><button class="btnJugar">Jugar</button></a>
+        </div>
+    </div>
 
-    
+
 </div>
+
+<app-publicidad></app-publicidad>
+
+<app-juegos-favoritos></app-juegos-favoritos>
+
