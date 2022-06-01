@@ -1,12 +1,12 @@
 <div class="destacado">
     <div class="destacado1">
         <div class="titulo">
-            <h1>JUEGO DESTACADO</h1>
+            <h1>Juego Destacado</h1>
         </div>
 
         <div>
 
-           <img src="assets/img/juegoDestacado.png">
+           <a [routerLink]="['/juego']"><img src="assets/img/juegoDestacado.png"></a>
         </div>
     </div>
     <div class="destacado2">
@@ -22,7 +22,7 @@
 
 
         <div class="btn">
-            <button class="btnJugar">Jugar</button>
+            <a [routerLink]="['/juego']"><button class="btnJugar">Jugar</button></a>
         </div>
     </div>
 
