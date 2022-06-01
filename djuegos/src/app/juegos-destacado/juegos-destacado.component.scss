@@ -1,6 +1,4 @@
 .destacado {
-    position: absolute;
-    left: 0;
     margin-top: 140px;
     width: 100%;
     display: flex;
@@ -15,8 +13,9 @@
 .destacado1{
     margin: 2%;
 }
-.h1 {
+h1 {
     font-size: 40px;
+    margin-block-start:0;
 }
 
 .descripcion {
@@ -44,6 +43,7 @@
 .btn {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .btnJugar {
