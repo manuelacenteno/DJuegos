@@ -13,6 +13,7 @@ import { FormRegistroComponent } from './form-registro/form-registro.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
 import { FilterPipe } from './pipes/filter.pipe';
 import { FormsModule } from '@angular/forms';
+import { JuegoComponent } from './juego/juego.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FormsModule } from '@angular/forms';
     JuegosListComponent,
     FormRegistroComponent,
     BusquedaComponent,
-    FilterPipe
+    FilterPipe,
+    JuegoComponent
   ],
   imports: [
     BrowserModule,
