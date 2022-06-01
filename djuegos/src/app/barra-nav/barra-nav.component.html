@@ -18,7 +18,7 @@
                 <!-- [routerLink]="['/#']" -->
                 <li><a [routerLink]="['/busqueda']"><img class="btn-bar" src="assets/img/Buscar.png"></a></li>
 
-                <li (click)="openLogin()"> <a href="#"><img class="btn-bar" src="assets/img/Perfil.png"></a></li>
+                <li (click)="openLogin()"> <a style="cursor: pointer;"><img class="btn-bar" src="assets/img/Perfil.png"></a></li>
                 <div *ngIf="abrirOpcion==true">
                     <app-form-login></app-form-login>
                 </div>
