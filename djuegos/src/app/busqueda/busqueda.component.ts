@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Juego} from './juego';
+import {Juego, Lista} from './../juegos-list/juego';
+import {JuegosListComponent} from './../juegos-list/juegos-list.component'
 
 @Component({
   selector: 'app-busqueda',
@@ -8,85 +9,8 @@ import {Juego} from './juego';
 })
 export class BusquedaComponent implements OnInit {
   filterJuego = '';
-  juegos: Juego [] =
-  [{
-    id: 1,
-    nombre: "Roblox",
-    tipo: " Aventura",
-    calificacion:3,
-    imagen: "assets/img/juegoAventura1.jpg"
-  },
-  {
-    id: 2,
-    nombre: "Roblox",
-    tipo: " Aventura",
-    calificacion:3,
-    imagen: "assets/img/juegoAventura1.jpg"
-  },
-  {
-    id: 3,
-    nombre: "Roblox",
-    tipo: " Aventura",
-    calificacion:3,
-    imagen: "assets/img/juegoAventura1.jpg"
-  },
-  {
-    id: 4,
-    nombre: "Roblox",
-    tipo: " Aventura",
-    calificacion:3,
-    imagen: "assets/img/juegoAventura1.jpg"
-  },
-  {
-    id: 5,
-    nombre: "Roblox",
-    tipo: " Aventura",
-    calificacion:3,
-    imagen: "assets/img/juegoAventura1.jpg"
-  },
-  {
-    id: 6,
-    nombre: "Roblox",
-    tipo: " Aventura",
-    calificacion:3,
-    imagen: "assets/img/juegoAventura1.jpg"
-  },
-  {
-    id: 7,
-    nombre: "Roblox",
-    tipo: " Aventura",
-    calificacion:3,
-    imagen: "assets/img/juegoAventura1.jpg"
-  },
-  {
-    id: 8,
-    nombre: "Roblox",
-    tipo: " Aventura",
-    calificacion:3,
-    imagen: "assets/img/juegoAventura1.jpg"
-  },
-  {
-    id: 9,
-    nombre: "Roblox",
-    tipo: " Aventura",
-    calificacion:3,
-    imagen: "assets/img/juegoAventura1.jpg"
-  },
-  {
-    id: 10,
-    nombre: "Roblox",
-    tipo: " Aventura",
-    calificacion:3,
-    imagen: "assets/img/juegoAventura1.jpg"
-  },
-  {
-    id: 11,
-    nombre: "Roblox",
-    tipo: " Aventura",
-    calificacion:3,
-    imagen: "assets/img/juegoAventura1.jpg"
-  }
-]
+  asd: Lista[] = new JuegosListComponent().getCategorias();
+  
 
   constructor() { }
 
