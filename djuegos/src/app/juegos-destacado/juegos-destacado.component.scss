@@ -5,17 +5,20 @@
     background-image: url("../../assets/img/fondo1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    color: #FFFFFF;     
+    color: #FFFFFF;
 }
-.titulo{
+
+.titulo {
     margin-bottom: 2%;
 }
-.destacado1{
+
+.destacado1 {
     margin: 2%;
 }
+
 h1 {
     font-size: 40px;
-    margin-block-start:0;
+    margin-block-start: 0;
 }
 
 .descripcion {
@@ -25,7 +28,7 @@ h1 {
 }
 
 .destacado2 {
-    margin:2%;
+    margin: 2%;
     margin-right: 4%;
 }
 
@@ -51,6 +54,23 @@ h1 {
     height: 68px;
     background-color: #F0B510;
     opacity: 0.85;
-    box-shadow: -1px 2px rgba(255,255,255,0.3);
+    box-shadow: -1px 2px rgba(255, 255, 255, 0.3);
     cursor: pointer;
+}
+
+.btnJugar:hover {
+    animation: 5s click 1;
+}
+
+
+/* Creamos la animación (con keyframes) */
+
+@keyframes click {
+    25%,
+    75% {
+        transform: scale(.8);
+    }
+    50% {
+        transform: scale(1.1);
+    }
 }

@@ -59,7 +59,7 @@
                 </ul>
             </div>
         </div>
-        <div class="formLogin" *ngIf="registro==false">
+        <div id="efectoAnimacion" class="formLogin" *ngIf="registro==false">
 
             <button class="btnCerrar" (click)="cerrarForm()">X</button>
 
@@ -83,9 +83,9 @@
                     </div>
                 </form>
             </div>
-            
+
             <button type="button" id="btn-registro" class="btnNo" (click)="openRegistro()">¿No tienes cuenta?</button>
-            
+
         </div>
         <div class="formRegistro" *ngIf="registro==true">
             <button class="btnCerrar" (click)="cerrarForm()">X</button>
@@ -116,15 +116,15 @@
                         <input type="password">
                     </div>
                     <div class="botonEntrar">
-                        <a [routerLink]="['/perfil']" (click)="cerrarForm()" ><button class="btnEntrar" style="cursor: pointer;">Registrarse</button></a>
+                        <a [routerLink]="['/perfil']" (click)="cerrarForm()"><button class="btnEntrar" style="cursor: pointer;">Registrarse</button></a>
                     </div>
                 </form>
             </div>
-            
+
             <button id="btn-login" class="btnNo" (click)="closeRegistro()">¿Ya tienes cuenta?</button>
 
         </div>
     </div>
 
-    
+
 </div>
