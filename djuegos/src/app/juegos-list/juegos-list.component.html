@@ -1,6 +1,11 @@
 <div id="lista2" class="lista2" *ngFor="let categoria of categorias">
-    <div class="linea">
-        <h2>Juegos de {{categoria.categoria}}</h2>
+    <div class="titulo">
+        <div class="linea">
+            <h2>Juegos de {{categoria.categoria}}</h2>
+        </div>
+        <div>
+            <button class="btn-mas" [routerLink]="['/accion']"> Ver mas</button>
+        </div>
     </div>
     <div class="listaCard" *ngFor="let juego of categoria.juegos.slice(0,6)">
         <div class="card">
