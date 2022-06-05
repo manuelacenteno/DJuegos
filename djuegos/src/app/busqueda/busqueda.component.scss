@@ -14,9 +14,14 @@
 
 .probando {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 20%);
+    gap: 1em;
 }
 
 .h3 {
     font-size: 16px;
+}
+
+.card:hover {
+    border: 2px solid #585858;
 }
