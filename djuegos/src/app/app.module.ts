@@ -17,6 +17,9 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { JuegoComponent } from './juego/juego.component';
 import { JuegosSimilaresComponent } from './juegos-similares/juegos-similares.component';
 import { JuegosFavoritosComponent } from './juegos-favoritos/juegos-favoritos.component';
+import { LoadingComponent } from './loading/loading.component';
+import { Loading2Component } from './loading2/loading2.component';
+import { Loading3Component } from './loading3/loading3.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +37,9 @@ import { JuegosFavoritosComponent } from './juegos-favoritos/juegos-favoritos.co
     JuegoComponent,
     JuegosSimilaresComponent,
     JuegosFavoritosComponent,
+    LoadingComponent,
+    Loading2Component,
+    Loading3Component,
   ],
   imports: [
     BrowserModule,
