@@ -5,7 +5,9 @@
     <h1>Resultados :</h1>
 
     <section class="probando" *ngFor="let categoria of asd">
+
         <div class="card" *ngFor="let juego of categoria.juegos |filter :filterJuego">
+
             <!-- <div *ngIf="juego.nombre == null ">
                 <h2>No hay resultados para esta busqueda</h2>
             </div> -->
@@ -15,7 +17,8 @@
             <div>
                 <h3>{{juego.nombre}}</h3>
             </div>
-
         </div>
+
     </section>
+
 </div>

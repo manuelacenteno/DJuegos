@@ -45,102 +45,176 @@ export class JuegosListComponent implements OnInit {
     id: 7,
     nombre: "Roblox 2, la venganza",
     imagen: "assets/img/juegoAccion1.jpg"
+  },
+  {
+    id: 8,
+    nombre: "Age of Empires",
+    imagen: "assets/img/juegoAccion2.webp"
+  },
+  {
+    id: 9,
+    nombre: "World of Warcraft",
+    imagen: "assets/img/juegoAccion3.jpg"
+  },
+  {
+    id: 10,
+    nombre: "Roblox 2, la venganza",
+    imagen: "assets/img/juegoAccion1.jpg"
   }]
 }, {
   categoria: "Aventuras",
   juegos : [{
-    id: 8,
+    id: 1,
     nombre: "Las Aventuras de Pepito",
     imagen: "assets/img/juegoAccion3.jpg"
   },
   {
-    id: 9,
+    id: 2,
     nombre: "Aventuras 2.0, la Venganza de los Sith",
     imagen: "assets/img/juegoAccion1.jpg"
   },
   {
-    id: 10,
+    id: 3,
     nombre: "El señor de los Anillos: el retorno del Rey",
     imagen: "assets/img/juegoAccion2.webp"
   },
   {
-    id: 11,
+    id: 4,
     nombre: "Age of Mitology: Las Eras de la Mitología",
     imagen: "assets/img/juegoAccion3.jpg"
   },
   {
-    id: 12,
+    id: 5,
     nombre: "Diablo III",
     imagen: "assets/img/juegoAccion1.jpg"
   },
   {
-    id: 13,
+    id: 6,
     nombre: "Pacman",
     imagen: "assets/img/juegoAccion3.jpg"
+  },{
+    id: 7,
+    nombre: "Age of Empires",
+    imagen: "assets/img/juegoAccion2.webp"
+  },
+  {
+    id: 8,
+    nombre: "World of Warcraft",
+    imagen: "assets/img/juegoAccion3.jpg"
+  },
+  {
+    id: 9,
+    nombre: "Roblox 2, la venganza",
+    imagen: "assets/img/juegoAccion1.jpg"
+  },
+  {
+    id: 10,
+    nombre: "Roblox 2, la venganza",
+    imagen: "assets/img/juegoAccion1.jpg"
   }]
 }, {
   categoria: "Multijugador",
   juegos : [{
-    id: 8,
+    id: 1,
     nombre: "Las Aventuras de Pepito",
     imagen: "assets/img/juegoAccion3.jpg"
   },
   {
-    id: 9,
+    id: 2,
     nombre: "Aventuras 2.0, la Venganza de los Sith",
     imagen: "assets/img/juegoAccion1.jpg"
   },
   {
-    id: 10,
+    id: 3,
     nombre: "El señor de los Anillos: el retorno del Rey",
     imagen: "assets/img/juegoAccion2.webp"
   },
   {
-    id: 11,
+    id: 4,
     nombre: "Age of Mitology: Las Eras de la Mitología",
     imagen: "assets/img/juegoAccion3.jpg"
   },
   {
-    id: 12,
+    id: 5,
     nombre: "Diablo III",
     imagen: "assets/img/juegoAccion1.jpg"
   },
   {
-    id: 13,
+    id: 6,
     nombre: "Pacman",
-    imagen: "assets/img/juegoAccion3.jpg"
-  }]
-}, {
-  categoria: "Clásicos",
-  juegos : [{
-    id: 8,
-    nombre: "Los juegos clásicos más clásicos del mundo",
     imagen: "assets/img/juegoAccion3.jpg"
   },
   {
+    id: 7,
+    nombre: "Roblox 2, la venganza",
+    imagen: "assets/img/juegoAccion1.jpg"
+  },
+  {
+    id: 8,
+    nombre: "Roblox 2, la venganza",
+    imagen: "assets/img/juegoAccion1.jpg"
+  },
+  {
     id: 9,
-    nombre: "Aventuras 2.0, la Venganza de los Sith",
+    nombre: "Roblox 2, la venganza",
     imagen: "assets/img/juegoAccion1.jpg"
   },
   {
     id: 10,
+    nombre: "Roblox 2, la venganza",
+    imagen: "assets/img/juegoAccion1.jpg"
+  }]
+}, {
+  categoria: "Clásicos",
+  juegos : [{
+    id: 1,
+    nombre: "Los juegos clásicos más clásicos del mundo",
+    imagen: "assets/img/juegoAccion3.jpg"
+  },
+  {
+    id: 2,
+    nombre: "Aventuras 2.0, la Venganza de los Sith",
+    imagen: "assets/img/juegoAccion1.jpg"
+  },
+  {
+    id: 3,
     nombre: "El Hobbit",
     imagen: "assets/img/juegoAccion2.webp"
   },
   {
-    id: 11,
+    id: 4,
     nombre: "Minecraft",
     imagen: "assets/img/juegoAccion3.jpg"
   },
   {
-    id: 12,
+    id: 5,
     nombre: "jahsdkahsdhakd",
     imagen: "assets/img/juegoAccion1.jpg"
   },
   {
-    id: 13,
+    id: 6,
     nombre: "Pacman",
     imagen: "assets/img/juegoAccion3.jpg"
+  },
+  {
+    id: 7,
+    nombre: "Roblox 2, la venganza",
+    imagen: "assets/img/juegoAccion1.jpg"
+  },
+  {
+    id: 8,
+    nombre: "Roblox 2, la venganza",
+    imagen: "assets/img/juegoAccion1.jpg"
+  },
+  {
+    id: 9,
+    nombre: "Roblox 2, la venganza",
+    imagen: "assets/img/juegoAccion1.jpg"
+  },
+  {
+    id: 10,
+    nombre: "Roblox 2, la venganza",
+    imagen: "assets/img/juegoAccion1.jpg"
   }]
 }];
 

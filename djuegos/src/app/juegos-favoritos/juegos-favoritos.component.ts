@@ -78,5 +78,6 @@ export class JuegosFavoritosComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
 
 }
