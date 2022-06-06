@@ -13,208 +13,208 @@ export class JuegosListComponent implements OnInit {
   categoria: "Acción",
   juegos : [{
     id: 1,
-    nombre: "Star Wars, el Despertar de la Fuerza",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Happy Wheels",
+    imagen: "assets/img/JuegosAccion/happyWheels.webp"
   },
   {
     id: 2,
-    nombre: "Star Wars, la Venganza de Mace Windu contra Obi Wan que no ví",
-    imagen: "assets/img/juegoAccion2.webp"
+    nombre: "Stickman Temple Duel",
+    imagen: "assets/img/JuegosAccion/Stickman.webp"
   },
   {
     id: 3,
-    nombre: "El señor de los Anillos",
-    imagen: "assets/img/juegoAccion3.jpg"
+    nombre: "One Escape",
+    imagen: "assets/img/JuegosAccion/OneEscape.png"
   },
   {
     id: 4,
-    nombre: "Roblox",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Craft Bros Run",
+    imagen: "assets/img/JuegosAccion/Craft.webp"
   },
   {
     id: 5,
-    nombre: "Age of Empires",
-    imagen: "assets/img/juegoAccion2.webp"
+    nombre: "Narrow One",
+    imagen: "assets/img/JuegosAccion/Narrow.webp"
   },
   {
     id: 6,
-    nombre: "World of Warcraft",
-    imagen: "assets/img/juegoAccion3.jpg"
+    nombre: "Martial Arts: Fighter Duel",
+    imagen: "assets/img/JuegosAccion/Martial.jpg"
   },
   {
     id: 7,
-    nombre: "Roblox 2, la venganza",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Bazooka Boy",
+    imagen: "assets/img/JuegosAccion/Bazooka.webp"
   },
   {
     id: 8,
-    nombre: "Age of Empires",
-    imagen: "assets/img/juegoAccion2.webp"
+    nombre: "Squid Game: El Juego del Calamar",
+    imagen: "assets/img/JuegosAccion/Squid.webp"
   },
   {
     id: 9,
-    nombre: "World of Warcraft",
-    imagen: "assets/img/juegoAccion3.jpg"
+    nombre: "Fortnite",
+    imagen: "assets/img/JuegosAccion/fortnite.jpg"
   },
   {
     id: 10,
-    nombre: "Roblox 2, la venganza",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Solar Smash",
+    imagen: "assets/img/JuegosAccion/Solar.jpg"
   }]
 }, {
   categoria: "Aventuras",
   juegos : [{
     id: 1,
-    nombre: "Las Aventuras de Pepito",
+    nombre: "Minecraft",
     imagen: "assets/img/juegoAccion3.jpg"
   },
   {
     id: 2,
-    nombre: "Aventuras 2.0, la Venganza de los Sith",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Among Us: Online Edition",
+    imagen: "assets/img/JuegosAventura/AmongUsOnLineEdition.webp"
   },
   {
     id: 3,
-    nombre: "El señor de los Anillos: el retorno del Rey",
-    imagen: "assets/img/juegoAccion2.webp"
+    nombre: "Five Nights at Freddy's",
+    imagen: "assets/img/JuegosAventura/FiveNights.jpg"
   },
   {
     id: 4,
-    nombre: "Age of Mitology: Las Eras de la Mitología",
-    imagen: "assets/img/juegoAccion3.jpg"
+    nombre: "Super Mario 64",
+    imagen: "assets/img/JuegosAventura/SuperMario64.webp"
   },
   {
     id: 5,
-    nombre: "Diablo III",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Dragon Ball:Advance Adventure",
+    imagen: "assets/img/JuegosAventura/DragonBall.jpg"
   },
   {
     id: 6,
-    nombre: "Pacman",
-    imagen: "assets/img/juegoAccion3.jpg"
+    nombre: "Classic Minecraft",
+    imagen: "assets/img/JuegosAventura/ClassicMineCraft.webp"
   },{
     id: 7,
-    nombre: "Age of Empires",
-    imagen: "assets/img/juegoAccion2.webp"
+    nombre: "Baldi's basics in education and learning",
+    imagen: "assets/img/JuegosAventura/Baldi.webp"
   },
   {
     id: 8,
-    nombre: "World of Warcraft",
-    imagen: "assets/img/juegoAccion3.jpg"
+    nombre: "Among us",
+    imagen: "assets/img/JuegosAventura/Amongus.webp"
   },
   {
     id: 9,
-    nombre: "Roblox 2, la venganza",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Five nights at Freddy's 2",
+    imagen: "assets/img/JuegosAventura/FiveNights2.jpg"
   },
   {
     id: 10,
-    nombre: "Roblox 2, la venganza",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Granny",
+    imagen: "assets/img/JuegosAventura/Granny.webp"
   }]
 }, {
   categoria: "Multijugador",
   juegos : [{
     id: 1,
-    nombre: "Las Aventuras de Pepito",
-    imagen: "assets/img/juegoAccion3.jpg"
+    nombre: "Slither.io",
+    imagen: "assets/img/JuegosMultijugador/Slither-io.webp"
   },
   {
     id: 2,
-    nombre: "Aventuras 2.0, la Venganza de los Sith",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Imposter Battle Royale",
+    imagen: "assets/img/JuegosMultijugador/Imposter.png"
   },
   {
     id: 3,
-    nombre: "El señor de los Anillos: el retorno del Rey",
-    imagen: "assets/img/juegoAccion2.webp"
+    nombre: "Let's Fish",
+    imagen: "assets/img/JuegosMultijugador/fish.jpg"
   },
   {
     id: 4,
-    nombre: "Age of Mitology: Las Eras de la Mitología",
-    imagen: "assets/img/juegoAccion3.jpg"
+    nombre: "Roblox",
+    imagen: "assets/img/JuegosMultijugador/roblox.jpg"
   },
   {
     id: 5,
-    nombre: "Diablo III",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Ludo Hero",
+    imagen: "assets/img/JuegosMultijugador/Ludo.webp"
   },
   {
     id: 6,
-    nombre: "Pacman",
-    imagen: "assets/img/juegoAccion3.jpg"
+    nombre: "Bullet Force Multiplayer",
+    imagen: "assets/img/JuegosMultijugador/BulletForce.jpg"
   },
   {
     id: 7,
-    nombre: "Roblox 2, la venganza",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Uno Online",
+    imagen: "assets/img/JuegosMultijugador/uno.jpg"
   },
   {
     id: 8,
-    nombre: "Roblox 2, la venganza",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Agar.io",
+    imagen: "assets/img/JuegosMultijugador/Agar-io.jpg"
   },
   {
     id: 9,
-    nombre: "Roblox 2, la venganza",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Firestone idle RPG",
+    imagen: "assets/img/JuegosMultijugador/Firestone.jpg"
   },
   {
     id: 10,
-    nombre: "Roblox 2, la venganza",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Stumble Guys: Multiplayer",
+    imagen: "assets/img/JuegosMultijugador/Stumble.webp"
   }]
 }, {
   categoria: "Clásicos",
   juegos : [{
     id: 1,
-    nombre: "Los juegos clásicos más clásicos del mundo",
-    imagen: "assets/img/juegoAccion3.jpg"
+    nombre: "Super Mario World Online",
+    imagen: "assets/img/JuegosClasico/MarioBros.webp"
   },
   {
     id: 2,
-    nombre: "Aventuras 2.0, la Venganza de los Sith",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Sonic 3 & Knuckles: The Challenges",
+    imagen: "assets/img/JuegosClasico/Sonic3.jpg"
   },
   {
     id: 3,
-    nombre: "El Hobbit",
-    imagen: "assets/img/juegoAccion2.webp"
+    nombre: "Metal Slug",
+    imagen: "assets/img/JuegosClasico/MetalSlug.webp"
   },
   {
     id: 4,
-    nombre: "Minecraft",
-    imagen: "assets/img/juegoAccion3.jpg"
+    nombre: "Super Smash Flash 2",
+    imagen: "assets/img/JuegosClasico/SuperSmash.jpg"
   },
   {
     id: 5,
-    nombre: "jahsdkahsdhakd",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Friday Night Funkin: Super Sonic Smackdown",
+    imagen: "assets/img/JuegoClasico/friday.webp"
   },
   {
     id: 6,
     nombre: "Pacman",
-    imagen: "assets/img/juegoAccion3.jpg"
+    imagen: "assets/img/pacMan.webp"
   },
   {
     id: 7,
-    nombre: "Roblox 2, la venganza",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Sonic Classic Heroes",
+    imagen: "assets/img/JuegosClasico/SonicClassic.jpg"
   },
   {
     id: 8,
-    nombre: "Roblox 2, la venganza",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Super Mario Kart",
+    imagen: "assets/img/JuegoClasico/SupermarioKart.jpg"
   },
   {
     id: 9,
-    nombre: "Roblox 2, la venganza",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Cat Mario",
+    imagen: "assets/img/JuegoClasico/CatMario.webp"
   },
   {
     id: 10,
-    nombre: "Roblox 2, la venganza",
-    imagen: "assets/img/juegoAccion1.jpg"
+    nombre: "Dibbles: ProPack",
+    imagen: "assets/img/JuegoClasico/Dibbles.jpg"
   }]
 }];
 

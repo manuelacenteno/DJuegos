@@ -13,38 +13,38 @@ export class JuegosFavoritosComponent implements OnInit {
   juegos: Juego[] = [
     {
       id: 1,
-      nombre: "Las Aventuras de Pepito",
-      imagen: "assets/img/juegoAccion3.jpg"
+      nombre: "Squid Game: El Juego del Calamar",
+      imagen: "assets/img/JuegosAccion/Squid.webp"
     },
     {
       id: 2,
-      nombre: "Aventuras 2.0, la Venganza de los Sith",
-      imagen: "assets/img/juegoAccion1.jpg"
+      nombre: "Fortnite",
+      imagen: "assets/img/JuegosAccion/fortnite.jpg"
     },
     {
       id: 3,
-      nombre: "El señor de los Anillos: el retorno del Rey",
-      imagen: "assets/img/juegoAccion2.webp"
+      nombre: "Among us",
+      imagen: "assets/img/JuegosAventura/Amongus.webp"
     },
     {
       id: 4,
-      nombre: "Age of Mitology: Las Eras de la Mitología",
-      imagen: "assets/img/juegoAccion3.jpg"
+      nombre: "Stumble Guys: Multiplayer",
+      imagen: "assets/img/JuegosMultijugador/Stumble.webp"
     },
     {
       id: 5,
-      nombre: "Age of Mitology: Las Eras de la Mitología",
-      imagen: "assets/img/juegoAccion3.jpg"
+      nombre: "Super Mario Kart",
+      imagen: "assets/img/JuegoClasico/SupermarioKart.jpg"
     },
     {
       id: 6,
-      nombre: "Diablo III",
-      imagen: "assets/img/juegoAccion1.jpg"
+      nombre: "Dibbles: ProPack",
+      imagen: "assets/img/JuegoClasico/Dibbles.jpg"
     },
     {
       id: 7,
-      nombre: "Age of Mitology: Las Eras de la Mitología",
-      imagen: "assets/img/juegoAccion3.jpg"
+      nombre: "Cat Mario",
+      imagen: "assets/img/JuegoClasico/CatMario.webp"
     },
     {
       id: 8,
@@ -53,23 +53,13 @@ export class JuegosFavoritosComponent implements OnInit {
     },
     {
       id: 9,
-      nombre: "Age of Mitology: Las Eras de la Mitología",
-      imagen: "assets/img/juegoAccion3.jpg"
+      nombre: "Agar.io",
+      imagen: "assets/img/JuegosMultijugador/Agar-io.jpg"
     },
     {
       id: 10,
-      nombre: "Diablo III",
-      imagen: "assets/img/juegoAccion1.jpg"
-    },
-    {
-      id: 11,
-      nombre: "Age of Mitology: Las Eras de la Mitología",
-      imagen: "assets/img/juegoAccion3.jpg"
-    },
-    {
-      id: 12,
-      nombre: "Diablo III",
-      imagen: "assets/img/juegoAccion1.jpg"
+      nombre: "Super Smash Flash 2",
+      imagen: "assets/img/JuegosClasico/SuperSmash.jpg"
     }
   ];
 

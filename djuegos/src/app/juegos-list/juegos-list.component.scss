@@ -85,6 +85,10 @@ p.juegoNombre {
     gap: 1em;
 }
 
+.card:hover {
+    border: 2px solid #582A72;
+}
+
 h3 {
     text-align: center;
     margin-top: 5px;

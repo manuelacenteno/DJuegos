@@ -12,4 +12,7 @@ export class Loading2Component implements OnInit {
   ngOnInit(): void {
   }
 
+  cerrarLoading(){
+    
+  }
 }

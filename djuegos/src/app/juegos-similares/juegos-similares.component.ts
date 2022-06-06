@@ -11,33 +11,33 @@ export class JuegosSimilaresComponent implements OnInit {
 
   juegos: Juego[] = [
     {
-      id: 8,
-      nombre: "Las Aventuras de Pepito",
-      imagen: "assets/img/juegoAccion3.jpg"
+      id: 1,
+      nombre: "Pac-Man 3D RTX",
+      imagen: "assets/img/JuegosPacMan/Pac-Man3DRtx.png"
     },
     {
-      id: 9,
-      nombre: "Aventuras 2.0, la Venganza de los Sith",
-      imagen: "assets/img/juegoAccion1.jpg"
+      id: 2,
+      nombre: "Pac-Xon",
+      imagen: "assets/img/JuegosPacMan/Pac-Xon.jpg"
     },
     {
-      id: 10,
-      nombre: "El señor de los Anillos: el retorno del Rey",
-      imagen: "assets/img/juegoAccion2.webp"
+      id: 3,
+      nombre: "PacmanSky",
+      imagen: "assets/img/JuegosPacMan/PacManSky.webp"
     },
     {
-      id: 11,
-      nombre: "Age of Mitology: Las Eras de la Mitología",
-      imagen: "assets/img/juegoAccion3.jpg"
+      id: 4,
+      nombre: "Pac-Xon Deluxe",
+      imagen: "assets/img/JuegosPacMan/Pac-XonDeluxe.webp"
     },{
-      id: 11,
-      nombre: "Age of Mitology: Las Eras de la Mitología",
-      imagen: "assets/img/juegoAccion3.jpg"
+      id: 5,
+      nombre: "PacMan Collection",
+      imagen: "assets/img/JuegosPacMan/PacManCollection.webp"
     },
     {
-      id: 12,
-      nombre: "Diablo III",
-      imagen: "assets/img/juegoAccion1.jpg"
+      id: 6,
+      nombre: "Pac-Man-io",
+      imagen: "assets/img/JuegosPacMan/Pac-Man-io.jpg"
     }
   ]
 
