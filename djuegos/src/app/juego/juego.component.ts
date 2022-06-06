@@ -9,7 +9,15 @@ export class JuegoComponent implements OnInit {
 
   constructor() { }
 
+  notFound :string ='block';
+
   ngOnInit(): void {
+    setTimeout(() =>{
+      this.closeLoading();
+    },3000);
+  }
+  closeLoading():void{
+    this.notFound = 'none';
   }
 
 }
