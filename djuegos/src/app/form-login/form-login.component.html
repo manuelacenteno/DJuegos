@@ -70,20 +70,20 @@
                         <label for="">Usuario</label>
                     </div>
                     <div>
-                        <input type="text">
+                        <input type="text" placeholder="ManuGenia,BlasMalo:D">
                     </div>
                     <div class="input">
                         <label for="">Contraseña</label>
                     </div>
                     <div class="input">
-                        <input type="password">
+                        <input type="password" placeholder="********">
                     </div>
                     <div class="botonEntrar">
                         <a [routerLink]="['/perfil']" (click)="cerrarForm()"><button type="submit" class="btnEntrar" style="cursor: pointer;">Entrar</button></a>
                     </div>
                 </form>
             </div>
-
+            <button>Me olvide la contraseña</button>
             <button type="button" id="btn-registro" class="btnNo" (click)="openRegistro()">¿No tienes cuenta?</button>
 
         </div>

@@ -14,7 +14,7 @@ export class JuegoComponent implements OnInit {
   ngOnInit(): void {
     setTimeout(() =>{
       this.closeLoading();
-    },3000);
+    },5000);
   }
   closeLoading():void{
     this.notFound = 'none';
