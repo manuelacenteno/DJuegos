@@ -1,3 +1,21 @@
+.barra {
+    background-color: #582A72;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+
 /*pantallas que superen los 600px*/
 
 @media only screen and (min-width:600px) {

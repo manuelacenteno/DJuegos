@@ -1,3 +1,18 @@
+/*.destacado {
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    background-image: url("../../assets/img/fondo1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.destacado1 img {
+    width: 100%;
+    height: 100px;
+}*/
+
 @media only screen and (min-width:600px) {
     .destacado {
         margin-top: 140px;

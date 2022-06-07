@@ -1,3 +1,36 @@
+/*.lista2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    margin-bottom: 20px;
+}
+
+.linea {
+    text-align: center;
+}
+
+.listaCard {
+    display: grid;
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-mas {
+    border: 2px solid #582A72;
+    border-radius: 30px;
+    color: #582A72;
+}*/
+
 @media only screen and (min-width:600px) {
     .lista2 {
         width: 100%;

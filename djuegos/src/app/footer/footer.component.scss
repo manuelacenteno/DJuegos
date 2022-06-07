@@ -1,3 +1,18 @@
+.footer {
+    background-color: #582A72;
+    color: #FFFFFF;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.grupo h4 {
+    font-size: 16px;
+    text-align: center;
+}
+
 @media only screen and (min-width:600px) {
     .footer {
         background-color: #582A72;
