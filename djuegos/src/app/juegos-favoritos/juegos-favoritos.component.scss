@@ -38,61 +38,12 @@
         text-align: center;
         margin-top: 5px;
     }
-    /* section {
-    text-align: center;
-}
-
-.slider {
-    position: relative;
-    width: 100%;
-    display: grid;
-    place-items: center;
-    overflow: hidden;
-}
-
-.slide-track {
-    width: calc(200px * 10);
-    display: flex;
-    animation: scroll 30s linear infinite;
-    justify-content: space-between;
-}
-
-.slide:hover {
-    border: 1px solid #585858;
-    transform: scale(1, 2);
-    transform: translate(50px);
-}
-
-
-/*.freeze {
-    -webkit-animation-play-state: paused;
-    -moz-animation-play-state: paused;
-    -o-animation-play-state: paused;
-    animation-play-state: paused;
-}
-
-.slide {
-    width: 200px;
-    height: 350px;
-    overflow: hidden;
-    background-position: top;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: orangered;
-    font-size: 20px;
-    font-weight: bold;
-    transition: 0.5s;
-}
-
-.freeze:hover .slide {
-    filter: blur(3px);
-}
-
-.freeze .slide:hover {
-    filter: none;
-}*/
+    .slide-track {
+        width: calc(200px * 10);
+        display: flex;
+        animation: scroll 30s linear infinite;
+        justify-content: space-between;
+    }
     @keyframes scroll {
         0% {
             transform: translateX(0px);
