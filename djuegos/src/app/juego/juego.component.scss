@@ -36,3 +36,27 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.btn-gusta {
+    transition: transform 4s, background-color 5s;
+}
+
+
+/*mi idea es que vaya para adelante y despues vuelva a su lugar*/
+
+.btn-gusta:focus {
+    transform: scale(1, 2);
+    background-color: blue;
+}
+
+.btn-nogusta {
+    transition: transform 4s, background-color 5s;
+}
+
+
+/*mi idea es que vaya para adelante y despues vuelva a su lugar*/
+
+.btn-nogusta:focus {
+    transform: scale(1, 2);
+    background-color: red;
+}
