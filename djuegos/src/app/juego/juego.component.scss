@@ -1,62 +1,50 @@
-.juego {
-    margin-top: 150px;
-    margin-bottom: 70px;
-    display: grid;
-    grid-template-columns: 70% 30%;
-    background-color: rgba(88, 42, 114, 0.8);
-    color: white;
-}
-
-.juegoPpal {
-    height: 100%;
-    width: 100%;
-}
-
-.parteDerecha {
-    margin-left: 5%;
-}
-
-.botones {
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    column-gap: 1em;
-}
-
-.controles {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
-.controlTeclado {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.controlMouse {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.btn-gusta {
-    transition: transform 4s, background-color 5s;
-}
-
-
-/*mi idea es que vaya para adelante y despues vuelva a su lugar*/
-
-.btn-gusta:focus {
-    transform: scale(1, 2);
-    background-color: blue;
-}
-
-.btn-nogusta {
-    transition: transform 4s, background-color 5s;
-}
-
-
-/*mi idea es que vaya para adelante y despues vuelva a su lugar*/
-
-.btn-nogusta:focus {
-    transform: scale(1, 2);
-    background-color: red;
+@media only screen and (min-width:600px) {
+    .juego {
+        margin-top: 150px;
+        margin-bottom: 70px;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        background-color: rgba(88, 42, 114, 0.8);
+        color: white;
+    }
+    .juegoPpal {
+        height: 100%;
+        width: 100%;
+    }
+    .parteDerecha {
+        margin-left: 5%;
+    }
+    .botones {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        column-gap: 1em;
+    }
+    .controles {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .controlTeclado {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .controlMouse {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .btn-gusta {
+        transition: transform 4s, background-color 5s;
+    }
+    /*mi idea es que vaya para adelante y despues vuelva a su lugar*/
+    .btn-gusta:focus {
+        transform: scale(1, 2);
+        background-color: blue;
+    }
+    .btn-nogusta {
+        transition: transform 4s, background-color 5s;
+    }
+    /*mi idea es que vaya para adelante y despues vuelva a su lugar*/
+    .btn-nogusta:focus {
+        transform: scale(1, 2);
+        background-color: red;
+    }
 }

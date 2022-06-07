@@ -1,3 +1,4 @@
+@media only screen and (min-width:600px) {
     .fondo {
         background: rgba(48, 48, 48, 0.5);
         position: fixed;
@@ -8,21 +9,17 @@
         height: 100%;
         width: 100%;
     }
-    
     .modalForm {
         display: contents;
         justify-content: center;
     }
-    
     .container2 {
         display: flex;
         align-items: center;
     }
-    
     .container1 {
         margin-top: 30px;
     }
-    
     .form {
         position: fixed;
         top: 0;
@@ -36,12 +33,10 @@
         width: 860px;
         margin: auto;
     }
-    
     .container {
         margin: auto;
     }
     /*primer div*/
-    
     .animacion {
         background-color: #5772AC;
         display: grid;
@@ -50,7 +45,6 @@
         animation: reboteIn_izquierda 3s 2;
     }
     /* Creamos la animación ReboteIn Izquierda (con keyframes) */
-    
     @keyframes reboteIn_izquierda {
         0% {
             opacity: 0;
@@ -64,7 +58,6 @@
             transform: translateX(-10px);
         }
     }
-    
     .animacion container {
         position: absolute;
         top: 50%;
@@ -72,27 +65,22 @@
         margin-left: -64.5px;
         margin-top: -85.5px;
     }
-    
     .ghost {
         animation: float 3s ease-out infinite;
     }
-    
     .path {
         display: flex;
         justify-content: center;
     }
-    
     @keyframes float {
         50% {
             transform: translate(0, 20px);
         }
     }
-    
     .shadowFrame {
         width: 130px;
         margin-top: 15px;
     }
-    
     .shadow {
         animation: shrink 3s ease-out infinite;
         transform-origin: center center;
@@ -100,7 +88,6 @@
             transform-origin: center center;
         }
     }
-    
     @keyframes shrink {
         0% {
             width: 90%;
@@ -115,21 +102,18 @@
             margin: 0 5%;
         }
     }
-    
     .animacion h3 {
         font-size: 20px;
         font-style: italic;
         color: #ffffff;
         margin-left: 20px;
     }
-    
     .animacion ul {
         color: #ffffff;
         list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
         margin-left: 20px;
     }
     /*segundo div*/
-    
     .formLogin {
         background-image: url("./../../assets/img/fondoLogin.png");
         background-size: cover;
@@ -159,7 +143,6 @@
             transform: translateY(100px);
         }
     }*/
-    
     @keyframes reboteIn_derecha {
         0% {
             opacity: 0;
@@ -176,19 +159,16 @@
         transform: translateX(100vw);
     }*/
     }
-    
     .centrar {
         display: flex;
         justify-content: center;
         margin-top: 130px;
     }
-    
     .centrar2 {
         display: flex;
         justify-content: center;
         margin-top: 61px;
     }
-    
     input {
         border: 2px solid black;
         border-radius: 5px;
@@ -200,13 +180,11 @@
         height: 39px;
         box-shadow: -1px 2px rgba(0, 0, 0, 0.3);
     }
-    
     .botonEntrar {
         margin-top: 20px;
         display: flex;
         justify-content: center;
     }
-    
     .btnEntrar {
         border-radius: 30px;
         background-color: #582A72;
@@ -216,13 +194,11 @@
         height: 56px;
         box-shadow: -1px 2px rgba(255, 255, 255, 0.3);
     }
-    
     .botonNo {
         margin-top: 100px;
         display: flex;
         justify-content: center;
     }
-    
     .btnNo {
         border-radius: 8px;
         background-color: #F0B510;
@@ -235,23 +211,20 @@
         left: 41px;
         box-shadow: -1px 2px rgba(255, 255, 255, 0.3);
     }
-    
     #btn-login {
         top: 75px !important;
     }
-    
     .btnCerrar {
         position: relative;
         left: 380px;
         top: 10px;
     }
-    
     .formRegistro {
         background-image: url("./../../assets/img/fondoLogin.png");
         background-size: cover;
         float: right;
     }
-    
     button {
         cursor: pointer;
     }
+}

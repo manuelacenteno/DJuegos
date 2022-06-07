@@ -1,96 +1,90 @@
-.barra {
-    background-color: #582A72;
-    color: #FFFFFF;
-    display: grid;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 99;
-}
-.logo{
-    grid-column-start: 1;
-}
-.imagenLogo {
-    margin-top: 25px;
-    margin-left: 20px;
-    margin-bottom: 25px;
-}
+/*pantallas que superen los 600px*/
 
-.titulo {
-    font-size: 2.5rem;
-    margin: 0 1.5rem;
-    
-}
-.btn-cat{
-    height: 35px;
-}
-.lista{
-    margin: auto;
-    grid-column-start: 3;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-.lista ul {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.lista ul li {
-    list-style: none;
-    display: block;
-    height: 100%;
-   
-    list-style: none;
-}
-
-.menuLineal>li {
-    position: relative;
-    display: inline-block;
-}
-
-.lista ul li a {
-    text-decoration: none;
-    color: #FFFFFF;
-    height: 100%;
-    margin-right: 30px;
-    display: flex;
-    padding-left: 0.5rem;
-}
-
-.lista a:hover {
-    background-color: #555;
-}
-
-
-/*submenu*/
-
-.dropdowns  {
-    position: absolute;
-    color: white;
-    width: 250px;
-    visibility: hidden;
-    padding-top: 1rem !important;
-    opacity: 0;
-    transition: opacity 1.5;
-}
-.dropdowns > *{
-    background-color: #582A72;
-}
-.dropdowns img{
-    margin: auto !important;
-    margin-left: 1% !important;
-    padding: 1rem;
-}
-.menuLineal li:hover .dropdowns {
-    display: block;
-    visibility: visible;
-    opacity: 1;
+@media only screen and (min-width:600px) {
+    .barra {
+        background-color: #582A72;
+        color: #FFFFFF;
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+    }
+    .logo {
+        grid-column-start: 1;
+    }
+    .imagenLogo {
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
+    .titulo {
+        font-size: 2.5rem;
+        margin: 0 1.5rem;
+    }
+    .btn-cat {
+        height: 35px;
+    }
+    .lista {
+        margin: auto;
+        grid-column-start: 3;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .lista ul {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .lista ul li {
+        list-style: none;
+        display: block;
+        height: 100%;
+        list-style: none;
+    }
+    .menuLineal>li {
+        position: relative;
+        display: inline-block;
+    }
+    .lista ul li a {
+        text-decoration: none;
+        color: #FFFFFF;
+        height: 100%;
+        margin-right: 30px;
+        display: flex;
+        padding-left: 0.5rem;
+    }
+    .lista a:hover {
+        background-color: #555;
+    }
+    /*submenu*/
+    .dropdowns {
+        position: absolute;
+        color: white;
+        width: 250px;
+        visibility: hidden;
+        padding-top: 1rem !important;
+        opacity: 0;
+        transition: opacity 1.5;
+    }
+    .dropdowns>* {
+        background-color: #582A72;
+    }
+    .dropdowns img {
+        margin: auto !important;
+        margin-left: 1% !important;
+        padding: 1rem;
+    }
+    .menuLineal li:hover .dropdowns {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+    }
 }
