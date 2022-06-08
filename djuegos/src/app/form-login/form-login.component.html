@@ -59,7 +59,7 @@
                 </ul>
             </div>
         </div>
-        <div id="efectoAnimacion" class="formLogin" *ngIf="registro==false">
+        <div class="formLogin efectoAnimacion" *ngIf="registro==false">
 
             <button class="btnCerrar" (click)="cerrarForm()">X</button>
 
@@ -70,7 +70,7 @@
                         <label for="">Usuario</label>
                     </div>
                     <div>
-                        <input type="text" placeholder="ManuGenia,BlasMalo:D">
+                        <input type="text" placeholder="User@Djuegos.com">
                     </div>
                     <div class="input">
                         <label for="">Contraseña</label>
@@ -83,11 +83,11 @@
                     </div>
                 </form>
             </div>
-            <button>Me olvide la contraseña</button>
+           <!-- <button>Me olvide la contraseña</button> -->
             <button type="button" id="btn-registro" class="btnNo" (click)="openRegistro()">¿No tienes cuenta?</button>
 
         </div>
-        <div class="formRegistro" *ngIf="registro==true">
+        <div class="formRegistro efectoAnimacion" *ngIf="registro==true">
             <button class="btnCerrar" (click)="cerrarForm()">X</button>
             <div class="centrar2">
                 <form action="">

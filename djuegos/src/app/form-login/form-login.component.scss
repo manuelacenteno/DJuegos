@@ -35,6 +35,9 @@
     }
     .container {
         margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     /*primer div*/
     .animacion {
@@ -42,7 +45,7 @@
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
         height: 590px;
-        animation: reboteIn_izquierda 3s 2;
+        animation: reboteIn_izquierda 3s;
     }
     /* Creamos la animación ReboteIn Izquierda (con keyframes) */
     @keyframes reboteIn_izquierda {
@@ -87,6 +90,7 @@
         ellipse {
             transform-origin: center center;
         }
+        box-shadow: none !important;
     }
     @keyframes shrink {
         0% {
@@ -114,11 +118,11 @@
         margin-left: 20px;
     }
     /*segundo div*/
-    .formLogin {
+    .efectoAnimacion {
         background-image: url("./../../assets/img/fondoLogin.png");
         background-size: cover;
         float: right;
-        animation: reboteIn_derecha 3s 2;
+        animation: reboteIn_derecha 3s;
     }
     /* Creamos la animación ReboteIn Derecha (con keyframes) */
     /*@keyframes reboteIn_derecha {
