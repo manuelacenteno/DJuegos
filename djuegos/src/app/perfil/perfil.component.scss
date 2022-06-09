@@ -52,4 +52,17 @@
         box-shadow: -1px 2px rgba(255, 255, 255, 0.3);
         cursor: pointer;
     }
+    .btnJugar:hover {
+        animation: 5s click 1;
+    }
+    /* Creamos la animación (con keyframes) */
+    @keyframes click {
+        25%,
+        75% {
+            transform: scale(.8);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+    }
 }
