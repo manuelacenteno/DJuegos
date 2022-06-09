@@ -1,7 +1,28 @@
-.barra {
+/*.barra {
+    margin: 0;
     background-color: #582A72;
     color: #FFFFFF;
     width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.menuResponsive img {
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.iconoPerfil img {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
 }
 
 .logo {
@@ -9,11 +30,17 @@
     justify-content: center;
 }
 
+.imagenLogo {
+    margin-top: 25px;
+    width: 120px;
+    height: 50px;
+}
+
 .img {
     margin-top: 15px;
     margin-left: 10px;
     margin-bottom: 15px;
-}
+}*/
 
 
 /*pantallas que superen los 600px*/
@@ -30,6 +57,12 @@
         left: 0;
         width: 100%;
         z-index: 99;
+    }
+    .menuResponsive {
+        display: none;
+    }
+    .iconoPerfil {
+        display: none;
     }
     .logo {
         grid-column-start: 1;

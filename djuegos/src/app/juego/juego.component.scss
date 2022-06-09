@@ -1,3 +1,59 @@
+/*.juego {
+    margin-top: 0;
+}
+
+.juegoPpal {
+    width: 100%;
+}
+
+.controles {
+    margin-top: 25px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+
+.controles2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.controles2 p {
+    text-align: center;
+}
+
+.controlTeclado {
+    margin-left: 25px;
+}
+
+.controles h3 {
+    text-align: center;
+    background-color: #582A72;
+    color: white;
+}
+
+.descripcion h3 {
+    text-align: center;
+    background-color: #582A72;
+    color: white;
+}
+
+.descripcion p {
+    margin-top: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 25px;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}*/
+
 @media only screen and (min-width:600px) {
     .juego {
         margin-top: 150px;
@@ -35,7 +91,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    /*mi idea es que vaya para adelante y despues vuelva a su lugar y se vuelva azul la manito*/
+    //mi idea es que vaya para adelante y despues vuelva a su lugar y se vuelva azul la manito
     .btn-gusta:focus {
         transition: transform 4s, background-color 5s;
         background-color: blue;
