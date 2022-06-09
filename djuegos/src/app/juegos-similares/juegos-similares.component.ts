@@ -12,27 +12,27 @@ export class JuegosSimilaresComponent implements OnInit {
   juegos: Juego[] = [
     {
       id: 1,
-      nombre: "Pac-Man 3D RTX",
-      imagen: "assets/img/JuegosPacMan/Pac-Man3DRtx.png"
+      nombre: "Tres En Raya Online",
+      imagen: "assets/img/JuegosSimilares/tresOnline.webp"
     },
+  
     {
       id: 2,
-      nombre: "Pac-Xon",
-      imagen: "assets/img/JuegosPacMan/Pac-Xon.jpg"
-    },
-    {
+      nombre: "Candy Crush",
+      imagen: "assets/img/JuegosSimilares/candy.jpg"
+    },{
       id: 3,
-      nombre: "PacmanSky",
-      imagen: "assets/img/JuegosPacMan/PacManSky.webp"
+      nombre: "EnDice",
+      imagen: "assets/img/JuegosSimilares/Endice.webp"
     },
     {
       id: 4,
-      nombre: "Pac-Xon Deluxe",
-      imagen: "assets/img/JuegosPacMan/Pac-XonDeluxe.webp"
+      nombre: "Domino",
+      imagen: "assets/img/JuegosSimilares/domino.webp"
     },{
       id: 5,
-      nombre: "PacMan Collection",
-      imagen: "assets/img/JuegosPacMan/PacManCollection.webp"
+      nombre: "Sudoku",
+      imagen: "assets/img/JuegosSimilares/sudoku.webp"
     },
     {
       id: 6,

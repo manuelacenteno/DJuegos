@@ -35,35 +35,36 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .btn-gusta {
-        transition: transform 4s, background-color 5s;
-    }
-    /*mi idea es que vaya para adelante y despues vuelva a su lugar*/
+    /*mi idea es que vaya para adelante y despues vuelva a su lugar y se vuelva azul la manito*/
     .btn-gusta:focus {
-        transform: scale(1, 2);
+        transition: transform 4s, background-color 5s;
         background-color: blue;
+    }
+    @keyframes click {
+        25%,
+        75% {
+            transform: scale(.8);
+        }
+        50% {
+            transform: scale(1.1);
+        }
     }
     .btn-nogusta {
         transition: transform 4s, background-color 5s;
     }
-    /*mi idea es que vaya para adelante y despues vuelva a su lugar*/
-    .btn-nogusta:focus {
-        transform: scale(1, 2);
-        background-color: red;
-    }
-    .descripcion > p {
+    .descripcion>p {
         text-align: justify;
         overflow-y: scroll;
         height: -webkit-fill-available;
         text-overflow: ellipsis;
         white-space: break-spaces;
-        -ms-overflow-style: none; 
+        -ms-overflow-style: none;
         scrollbar-width: none;
     }
-    .descripcion > p::-webkit-scrollbar{
+    .descripcion>p::-webkit-scrollbar {
         display: none;
     }
-    .descripcion{
+    .descripcion {
         height: 160px;
         margin-bottom: 50px;
     }

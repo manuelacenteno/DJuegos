@@ -188,8 +188,8 @@ export class JuegosListComponent implements OnInit {
   },
   {
     id: 5,
-    nombre: "Friday Night Funkin: Super Sonic Smackdown",
-    imagen: "assets/img/JuegoClasico/friday.webp"
+    nombre: "Cuatro en Linea",
+    imagen: "assets/img/JuegosClasico/cuatroLinea.jpg"
   },
   {
     id: 6,
