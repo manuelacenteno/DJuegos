@@ -68,4 +68,18 @@
 
 
 }*/
+
+.slider-container{
+    overflow-x: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+.slider-container::-webkit-scrollbar{
+    display: none;
+}
 }

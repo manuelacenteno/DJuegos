@@ -9,7 +9,15 @@ export class PerfilComponent implements OnInit {
 
   constructor() { }
 
+  notFound :string ='block';
+
   ngOnInit(): void {
+    setTimeout(() =>{
+      this.closeLoading();
+    },5000);
+  }
+  closeLoading():void{
+    this.notFound = 'none';
   }
 
 }

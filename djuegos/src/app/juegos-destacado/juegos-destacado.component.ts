@@ -9,7 +9,14 @@ export class JuegosDestacadoComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  notFound :string ='block';
 
+  ngOnInit(): void {
+    setTimeout(() =>{
+      this.closeLoading();
+    },5000);
+  }
+  closeLoading():void{
+    this.notFound = 'none';
+  }
 }

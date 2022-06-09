@@ -8,7 +8,7 @@ import { Juego } from './../juegos-list/juego';
 })
 export class JuegosFavoritosComponent implements OnInit {
 
-  
+ 
 
   juegos: Juego[] = [
     {
@@ -63,11 +63,12 @@ export class JuegosFavoritosComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  constructor() {
+
+   }
 
   ngOnInit(): void {
   }
 
-  
 
 }

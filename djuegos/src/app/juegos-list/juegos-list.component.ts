@@ -220,7 +220,15 @@ export class JuegosListComponent implements OnInit {
 
   constructor() { }
 
+  notFound :string ='block';
+
   ngOnInit(): void {
+    setTimeout(() =>{
+      this.closeLoading();
+    },4000);
+  }
+  closeLoading():void{
+    this.notFound = 'none';
   }
 
   getCategorias(): Lista[]{
