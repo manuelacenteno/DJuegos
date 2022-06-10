@@ -1,6 +1,6 @@
-.grid {
-    /*display: flex;
-    justify-content: space-around;*/
+/*.grid {
+    //display: flex;
+    //justify-content: space-around;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 20px;
@@ -12,7 +12,7 @@
 img {
     height: 100px;
     width: 150px;
-}
+}*/
 
 @media only screen and (min-width:600px) {
     .grid {

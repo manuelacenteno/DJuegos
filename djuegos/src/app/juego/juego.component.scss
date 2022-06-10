@@ -92,22 +92,24 @@
         grid-template-columns: 1fr 1fr;
     }
     //mi idea es que vaya para adelante y despues vuelva a su lugar y se vuelva azul la manito
-    .btn-gusta:focus {
+    .btn-like {
         transition: transform 4s, background-color 5s;
+    }
+    .btn-like:focus {
+        transform: scale(.8);
         background-color: blue;
     }
-    @keyframes click {
+    /*@keyframes click {
         25%,
         75% {
             transform: scale(.8);
+            background-color: blue;
         }
         50% {
             transform: scale(1.1);
+            background-color: blue;
         }
-    }
-    .btn-nogusta {
-        transition: transform 4s, background-color 5s;
-    }
+    }*/
     .descripcion>p {
         text-align: justify;
         overflow-y: scroll;
