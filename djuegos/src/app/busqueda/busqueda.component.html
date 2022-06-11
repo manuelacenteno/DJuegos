@@ -11,9 +11,7 @@
 
         <div class="card" *ngFor="let juego of categoria.juegos |filter :filterJuego">
 
-            <!-- <div *ngIf="juego.nombre == null ">
-                <h2>No hay resultados para esta busqueda</h2>
-            </div> -->
+
             <div>
                 <img [src]="juego.imagen" [alt]="juego.nombre">
             </div>
