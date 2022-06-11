@@ -10,7 +10,17 @@ export class BarraNavComponent implements OnInit {
 
   abrirOpcion:boolean=false;
 
-  constructor( private modalSer: ModalService) { }
+  constructor(private modalSer: ModalService) { 
+   
+    if(window.matchMedia("(min-width:600px)").matches){
+      document.addEventListener("DOMContentLoaded", e =>{
+        //this.openBarra();
+      });
+      
+    } else {
+
+    }
+  }
 
   ngOnInit(): void {
 
@@ -20,6 +30,9 @@ export class BarraNavComponent implements OnInit {
   
   openLogin(){
     this.abrirOpcion =true;
+  }
+  openBarra():void{
+    document.querySelector(".barra")?.classList.toggle("hide")
   }
 
 }

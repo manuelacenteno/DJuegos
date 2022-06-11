@@ -3,9 +3,6 @@
     margin-bottom: 50px;
     margin-left: 25px;
     margin-right: 25px;
-    height: 600px;
-    display: grid;
-    grid-template-rows: 30% 70%;
     animation: lista 5s linear infinite 0s;
     -moz-animation: lista 5s linear infinite 0s;
     -webkit-animation: lista 5s linear infinite 0s;
@@ -64,6 +61,7 @@
     border: 2px solid black;
     border-radius: 5px;
     width: 100px;
+    margin: auto;
     height: 100px;
 }
 
@@ -91,11 +89,11 @@ p.juegoNombre {
     .lista {
         margin-top: 50px;
         margin-bottom: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+        height: 600px;
         display: grid;
         grid-template-rows: 30% 70%;
-        /*grid-template-columns: repeat(6, 1fr);*/
-        margin-left: 2%;
-        margin-right: 2%;
         animation: lista 5s linear infinite 0s;
         -moz-animation: lista 5s linear infinite 0s;
         -webkit-animation: lista 5s linear infinite 0s;

@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JuegoComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    if(window.matchMedia("(min-width:600px)").matches){
+      this.notFound = "block";
+    } else {
+      this.notFound = "none";
+    }
+  }
 
-  notFound :string ='block';
+  notFound :string;
 
   ngOnInit(): void {
     setTimeout(() =>{
@@ -19,5 +25,5 @@ export class JuegoComponent implements OnInit {
   closeLoading():void{
     this.notFound = 'none';
   }
-
+  
 }

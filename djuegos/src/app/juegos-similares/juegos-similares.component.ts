@@ -40,8 +40,13 @@ export class JuegosSimilaresComponent implements OnInit {
       imagen: "assets/img/JuegosPacMan/Pac-Man-io.jpg"
     }
   ]
-
+  desk:boolean;
   constructor() {
+    if(window.matchMedia("(min-width:600px)").matches){
+      this.desk = true;
+    } else {
+      this.desk = false;
+    }
    }
 
   ngOnInit(): void {

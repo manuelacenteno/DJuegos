@@ -1,12 +1,17 @@
-/*.barra {
+.barra {
     margin: 0;
     background-color: #582A72;
     color: #FFFFFF;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
 }
 
+.barra > *{
+    display: none;
+}
+.barra > .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .menuResponsive img {
     width: 40px;
     height: 40px;
@@ -31,7 +36,8 @@
 }
 
 .imagenLogo {
-    margin-top: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 120px;
     height: 50px;
 }
@@ -40,8 +46,14 @@
     margin-top: 15px;
     margin-left: 10px;
     margin-bottom: 15px;
-}*/
+}
 
+.hide{
+    display: none !important;
+}
+.navbar-toggler-icon >img{
+    width: 50px;
+}
 
 /*pantallas que superen los 600px*/
 
@@ -56,6 +68,7 @@
         top: 0;
         left: 0;
         width: 100%;
+        height: 150px;
         z-index: 99;
     }
     .menuResponsive {
@@ -71,6 +84,8 @@
         margin-top: 25px;
         margin-left: 20px;
         margin-bottom: 25px;
+        width: auto;
+        height: auto;
     }
     .titulo {
         font-size: 2.5rem;
@@ -83,7 +98,7 @@
         margin: auto;
         grid-column-start: 3;
         height: 100%;
-        display: flex;
+        display: flex !important;
         align-items: center;
     }
     .lista ul {

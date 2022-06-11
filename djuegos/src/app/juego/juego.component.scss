@@ -7,29 +7,11 @@
 }
 
 .controles {
-    margin-top: 25px;
-    width: 100%;
-    display: grid;
-    grid-template-rows: 30% 70%;
+    display:none;
 }
 
-.controles2 {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.controles2 p {
-    text-align: center;
-}
-
-.controlTeclado {
-    margin-left: 25px;
-}
-
-.controles h3 {
-    text-align: center;
-    background-color: #582A72;
-    color: white;
+.descripcion{
+    margin: 3% 3% 0;
 }
 
 .descripcion h3 {
@@ -54,55 +36,49 @@
     margin-bottom: 10px;
 }
 
-.btn-compartir {
-    width: 30px;
-    height: 30px;
-    border-radius: 100px;
-    border: none;
-    background-color: transparent;
-}
-
 .btn-fav {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 100px;
     border: none;
     background-color: transparent;
 }
-
+.btn-compartir {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: transparent;
+}
 .like {
     width: 30px;
     height: 30px;
 }
-
-.botones btn-like {
-    width: 15px;
-    height: 25px;
-    border-radius: 50px;
+.btn-like {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
     background-color: transparent;
     transition: transform 4s, background-color 5s;
 }
-
-.botones btn-like:focus {
-    transform: scale(.8);
+.btn-like:focus {
+    transform: scale(1.2);
     background-color: blue;
 }
-
 .noLike {
     width: 30px;
     height: 30px;
+    transform: rotate(180deg);
 }
-
-.botones btn-noLike {
-    width: 15px;
-    height: 25px;
-    border-radius: 50px;
+.btn-noLike {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
     background-color: transparent;
     transition: transform 4s, background-color 5s;
 }
-
-.botones btn-noLike:focus {
-    transform: scale(.8);
+.btn-noLike:focus {
+    transform: scale(1.2);
     background-color: red;
 }
 
@@ -142,62 +118,6 @@
     .controlMouse {
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
-    /*estilo de botones*/
-    .btn-fav {
-        width: 50px;
-        height: 50px;
-        border-radius: 100px;
-        border: none;
-        background-color: transparent;
-    }
-    .btn-compartir {
-        width: 50px;
-        height: 50px;
-        border-radius: 100px;
-        border: none;
-        background-color: transparent;
-    }
-    .like {
-        width: 30px;
-        height: 30px;
-    }
-    .btn-like {
-        width: 50px;
-        height: 50px;
-        border-radius: 100px;
-        background-color: transparent;
-        transition: transform 4s, background-color 5s;
-    }
-    .btn-like:focus {
-        transform: scale(.8);
-        background-color: blue;
-    }
-    /* @keyframes click {
-        25%,
-        75% {
-            transform: scale(.8);
-            background-color: blue;
-        }
-        50% {
-            transform: scale(1.1);
-            background-color: blue;
-        }
-    }*/
-    .noLike {
-        width: 30px;
-        height: 30px;
-    }
-    .btn-noLike {
-        width: 50px;
-        height: 50px;
-        border-radius: 100px;
-        background-color: transparent;
-        transition: transform 4s, background-color 5s;
-    }
-    .btn-noLike:focus {
-        transform: scale(.8);
-        background-color: red;
     }
     .descripcion>p {
         text-align: justify;
