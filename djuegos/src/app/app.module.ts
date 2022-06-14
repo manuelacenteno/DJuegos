@@ -20,6 +20,7 @@ import { JuegosFavoritosComponent } from './juegos-favoritos/juegos-favoritos.co
 import { LoadingComponent } from './loading/loading.component';
 import { Loading2Component } from './loading2/loading2.component';
 import { Loading3Component } from './loading3/loading3.component';
+import { CuatroLineaComponent } from './cuatro-linea/cuatro-linea.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { Loading3Component } from './loading3/loading3.component';
     LoadingComponent,
     Loading2Component,
     Loading3Component,
+    CuatroLineaComponent,
   ],
   imports: [
     BrowserModule,
