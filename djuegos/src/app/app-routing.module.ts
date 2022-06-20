@@ -5,6 +5,7 @@ import { JuegoComponent } from './juego/juego.component';
 import { JuegosDestacadoComponent } from './juegos-destacado/juegos-destacado.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { JuegosListComponent } from './juegos-list/juegos-list.component';
+import { CuatroLineaComponent } from './cuatro-linea/cuatro-linea.component';
 
 
 const routes: Routes = [
@@ -40,6 +41,9 @@ const routes: Routes = [
   ,
   {path: 'clasicos',
   component:JuegosListComponent ,}
+  ,
+  {path: 'cuatroLinea',
+  component:CuatroLineaComponent ,}
 ];
 
 @NgModule({
