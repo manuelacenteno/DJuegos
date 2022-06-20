@@ -3,14 +3,15 @@ export class Ficha{
     posY: number;//posY?: number con el simbolo ? especifico que no tiene nada
     posX: number;
     color: string;
-    ctx:CanvasRenderingContext2D;
+    ctx: CanvasRenderingContext2D;
     radio: number;
 
-    constructor(posY:number,posX:number,color:string,radio:number){
+    constructor(posY:number,posX:number,color:string,ctx:CanvasRenderingContext2D){
         this.posY =posY;
         this.posX =posX;
         this.color= color;
-        this.radio=radio;
+        this.radio=15;
+        this.ctx=ctx;
         
     }
     getPosY(){
@@ -31,7 +32,10 @@ export class Ficha{
 
     draw(){
         this.ctx.beginPath();
-        this.ctx.arc(this.posX, this.posY, this.radio, 0,2*Math.PI);
-        this.ctx.fillStyle= this.color;
+        this.ctx.arc(this.posX, this.posY, this.radio, 0, 2 * Math.PI);
+
+        this.ctx.fillStyle = this.color;
+        this.ctx.fill();
+    
     }
 }
