@@ -1,6 +1,5 @@
 class Ficha {
 
-
     constructor(posX, posY, color, ctx) {
         this.posX = posX;
         this.posY = posY;
@@ -35,6 +34,16 @@ class Ficha {
     setColor(color) {
         this.color = color;
     }
+    getPosicion() {
+        return {
+            x: this.getPosX(),
+            y: this.getPosY()
+        }
+    }
+    setPosicion(x, y) {
+        this.posX = x;
+        this.posY = y;
+    }
 
 
     draw() {
@@ -49,4 +58,14 @@ class Ficha {
          }
          img.src = "Icono.png";*/
     }
+
+    isClickedCirculo(posicion) {
+        if (Math.sqrt((posicion.x - this.posX) * (posicion.x - this.posX) + (posicion.y - this.posY) * (posicion.y - this.posY)) <=
+            this.radio) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }
