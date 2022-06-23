@@ -59,13 +59,10 @@ class Ficha {
          img.src = "Icono.png";*/
     }
 
-    isClickedCirculo(posicion) {
-        if (Math.sqrt((posicion.x - this.posX) * (posicion.x - this.posX) + (posicion.y - this.posY) * (posicion.y - this.posY)) <=
-            this.radio) {
-            return true;
-        } else {
-            return false;
-        }
+    isClickedCirculo(x, y) {
+        let _x = this.posX - x;
+        let _y = this.posY - y;
+        return Math.sqrt(_x * _x + _y * _y) < this.radio;
     }
 
 }

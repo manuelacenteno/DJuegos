@@ -7,6 +7,9 @@ class Tablero {
         this.height = height;
         this.color = color;
         this.ctx = ctx;
+        /*this.resaltado = resaltado;
+        this.resaltadoEstilo = '#000000';*/
+
     }
 
     getPosX() {
@@ -22,12 +25,22 @@ class Tablero {
         return this.height;
     }
 
+    setResaltado(resaltado) {
+        this.resaltado = resaltado;
+    }
+
     draw() {
         this.ctx.beginPath();
-        //this.ctx.fillRect(this.posX, this.posY, this.width, this.height);
+
         this.ctx.strokeRect(this.posX, this.posY, this.width, this.height);
         //this.ctx.fillStyle = this.color;
-        this.ctx.fill();
+
+
+        /* if (resaltado === true) {
+             this.ctx.strokeStyle = this.resaltadoEstilo;
+             this.ctx.lineWidth = 3;
+             this.ctx.strokeRect(this.posX, this.posY, this.width, this.height);
+         }*/
 
 
 
